@@ -173,8 +173,7 @@ class ProcesadorAudio:
         self.caracteristicas_spectral_contrast = np.mean(spectral_contrast, axis=1)
         print(f"Spectral Contrast extraídas: {self.caracteristicas_spectral_contrast.shape}")
 
-        # Mantengo solo las características que diferencian bien las clases: MFCC5, MFCC6, MFCC9, MFCC10 (indices 4,5,8,9)
-        # ANTES: Spectral Contrast2, Spectral Contrast5, Spectral Contrast6 (indices 1,4,5)  14, 17, 18
+        # Mantengo solo las características que diferencian bien las clases: MFCC5, MFCC6, MFCC9, MFCC10 (indices 4,5,8,9) y Spectral Contrast2, Spectral Contrast5, Spectral Contrast6 (indices 1,4,5)  14, 17, 18
 
         # Concatena MFCC y Spectral Contrast
         self.caracteristicas = np.concatenate([
