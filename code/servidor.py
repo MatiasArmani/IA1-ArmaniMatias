@@ -1,14 +1,12 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify, render_template, send_file, url_for
 import os
 import json
 import tempfile
 import threading
-import numpy as np
 from Entrenador import Entrenador
 from ProcesadorAudio import ProcesadorAudio
 from ProcesadorImagen import ProcesadorImagen
 from werkzeug.utils import secure_filename
-import tkinter as tk
 
 app = Flask(__name__)
 
@@ -19,6 +17,9 @@ EXTENSIONES_IMAGEN_PERMITIDAS = {'jpg', 'jpeg', 'png'}
 
 # Variable global para el proceso del servidor
 server_process = None
+
+# Diccionario para almacenar las imágenes recibidas temporalmente con sus etiquetas predecidas
+imagenes_temporales = {}
 
 entrenador = Entrenador(datos_procesados_path="saves/datos_procesados.json")
 
@@ -82,11 +83,20 @@ def clasificar_audio():
             procesador_audio.preprocesar_audio()
             procesador_audio.extraer_caracteristicas()
             iniciar_interfaz(procesador_audio)
-            
+
             # Realizar la predicción
             prediccion = entrenador.clasificador_audio.predecir(procesador_audio.caracteristicas)
             etiqueta_predicha = str(prediccion)
-            return jsonify({'prediccion': etiqueta_predicha})
+
+            # Generar URLs para las imágenes que coinciden con la etiqueta predicha
+            imagenes_mismas_etiquetas = [
+                url_for('mostrar_imagen', path=img_path)
+                for label, img_path in imagenes_temporales.items() if label == etiqueta_predicha
+            ]
+
+            # Renderizar la plantilla HTML con la etiqueta y las imágenes coincidentes
+            return render_template('resultado_audio.html', prediccion=etiqueta_predicha, imagenes=imagenes_mismas_etiquetas)
+
         except Exception as e:
             return jsonify({'error': f"Error al procesar el audio: {str(e)}"}), 500
         finally:
@@ -122,13 +132,25 @@ def clasificar_imagen():
             prediccion = entrenador.clasificador_imagen.predecir(procesador_imagen.caracteristicas)
             etiqueta_predicha = str(prediccion)  # Asegurarse de que la etiqueta sea una cadena
 
+            # Almacenar temporalmente la imagen y su etiqueta
+            imagenes_temporales[etiqueta_predicha] = temp_image_path
+
             return jsonify({'prediccion': etiqueta_predicha})
+            
         except Exception as e:
             return jsonify({'error': f"Error al procesar la imagen: {str(e)}"}), 500
-        finally:
-            os.remove(temp_image_path)
+        # No eliminamos la imagen aquí para que esté disponible temporalmente
     else:
         return jsonify({'error': 'No se proporcionó un archivo de imagen válido.'}), 400
+    
+@app.route('/mostrar_imagen')
+def mostrar_imagen():
+    path = request.args.get('path')
+    if path and os.path.exists(path):
+        return send_file(path, mimetype='image/jpeg')
+    else:
+        return "Imagen no encontrada", 404
+
 
 if __name__ == '__main__':
     try:
