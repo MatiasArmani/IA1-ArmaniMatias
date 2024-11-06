@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI verified="false" xmi.version="1.2" timestamp="2024-11-06T11:06:14" xmlns:UML="http://schema.omg.org/spec/UML/1.4">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.18</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.4" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="UML Model">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="folder" name="folder"/>
+    <UML:Stereotype visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="constructor" name="constructor"/>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Logical_View" name="Logical View">
+     <UML:Namespace.ownedElement>
+      <UML:Package stereotype="folder" visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Datatypes" name="Datatypes">
+       <UML:Namespace.ownedElement>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uyIcZyJaquhXt" name="char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvl6QqFOFlQWI" name="int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uchGwtvGu6pIG" name="float"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uP6csXABabDcc" name="double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uBUSxPHgLH9M3" name="bool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uumQNW3VnxUOE" name="string"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uGmMZJ5xdgQKG" name="unsigned char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLO9e345oM5lt" name="signed char"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uyeDnMlmpIV7X" name="unsigned int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uUcWv41qvyBKk" name="signed int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uw7V6E6lCr7Rt" name="short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="unWwB4RY371pX" name="unsigned short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="upPA2D1AGggcf" name="signed short int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uT0VdHFV3QtCV" name="long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uem1Vhv17EwOR" name="signed long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uzGovJrG16uj6" name="unsigned long int"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u7QibwPXXxSMZ" name="long double"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ujwwoHAzulfYU" name="wchar_t"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u4RC2dPJ6YrEh" name="AnsiString"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uXaX589Gok9Xy" name="Boolean"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHMnxVTKqVvYv" name="Byte"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ub1Hh0tcHTPvZ" name="ByteBool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ueAJ4lWstIT4U" name="Cardinal"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ueNBuxTNi3kHX" name="Character"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u8amfRlcQe6z3" name="Currency"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uL3i27ewDizJB" name="Extended"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u2aFWX7LuBaTE" name="Int64"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uWcFbAAGZAtPN" name="Integer"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ulRAFR3IPh0h7" name="Longint"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uHjP3gE841aAk" name="LongBool"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKaZ1iwctOVDi" name="Longword"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ulQPrkK5tpEcZ" name="QWord"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uEMRHVLN4kPcm" name="Real"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uXVImouYixXmh" name="Shortint"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uEelVRIwfiS28" name="ShortString"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uEqgJnBwzttjS" name="Single"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uyOikTdC4KwtY" name="Smallint"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uRoPuiwJzrcw0" name="WideString"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uWKKl1Wj2510R" name="Word"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uj8cNScSfzHc1" name="array"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uy5X7Xx6wBBUF" name="tuple"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ucyBwzoAL3b1H" name="list"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ulPm2FMHb13KP" name="long"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKgieHws6IRbr" name="dict"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="up5AYnixiYVXm" name="object"/>
+        <UML:DataType visibility="public" isSpecification="false" namespace="Datatypes" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLI9R2w6CJLqx" name="set"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uDJ1gJ0jKerjC" name="ClasificadorAudio">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ullgY0AdOMAbW" type="up5AYnixiYVXm" name="k"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uyMfmK5Kzy3aG" type="up5AYnixiYVXm" initialValue="None" name="audios_entrenamiento"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uyrKjZYviuZs0" type="up5AYnixiYVXm" initialValue="None" name="labels_audio_entrenamiento"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="utLQB8L3ccOga" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uHWdtUVlYkMcX" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="utR2CwdUxCHZ4" type="uvl6QqFOFlQWI" value="5" name="k"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uAgXs0OQ99v0Y" comment="Carga los datos de entrenamiento para K-NN" isOverride="false" name="cargar_datos_entrenamiento" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ulyb0qIBQN9gB" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u7aO4YORIsugV" type="uumQNW3VnxUOE" value="" name="audios"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uH43iJCVWVQWp" type="uumQNW3VnxUOE" value="" name="labels"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uW42cMChIDDdJ" comment="Predice la etiqueta de un nuevo audio basado en el modelo K-NN entrenado. Calcular las distancias euclidianas manualmente con comprensiÃ³n de listas Obtener los Ã­ndices de los k vecinos mÃ¡s cercanos Obtener las etiquetas de los k vecinos mÃ¡s cercanos Contar la frecuencia de cada etiqueta Devolver la etiqueta mÃ¡s comÃºn" isOverride="false" name="predecir" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uhCFsH9ElAv4j" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uB1Yoeb6laDKZ" type="uumQNW3VnxUOE" value="" name="caracteristicas_audio"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u6Iw9rX97INd4" comment="Convierte el clasificador a un diccionario serializable en JSON." isOverride="false" name="to_dict" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uWcE5vOTwAU88" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uAPGM1TfvLBZ9" comment="Carga los datos del clasificador desde un diccionario" isOverride="false" name="from_dict" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ujf1EMIhqme64" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uVIy5x2W7G3eX" type="uumQNW3VnxUOE" value="" name="data"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="utsoqJluWiwRU" name="ProcesadorImagen">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uw7ltg5Ow7ihc" type="up5AYnixiYVXm" name="ruta_imagen"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uzE5RmhBEhozc" type="up5AYnixiYVXm" initialValue="None" name="imagen"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u75vd40LoN6eZ" type="up5AYnixiYVXm" initialValue="None" name="imagen_retoque"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u5PXRT4kEGhSZ" type="up5AYnixiYVXm" initialValue="None" name="caracteristicas"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="ubWewxkHPPhZn" type="up5AYnixiYVXm" initialValue="None" name="mascara_fondo"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u3uOYmGDaenSz" type="up5AYnixiYVXm" initialValue="None" name="imagen_sin_fondo"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u4xyy6go2XsJZ" type="up5AYnixiYVXm" name="lower_white"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u9IB1kmck71KF" type="up5AYnixiYVXm" name="upper_white"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u2b9pHikNggWW" type="ucyBwzoAL3b1H" initialValue="[]" name="errores_porcentaje_fondo"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u4XSUN4Nj8QOW" type="up5AYnixiYVXm" initialValue="None" name="imagen_contorno"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uzmuc6TIbIk5Z" type="up5AYnixiYVXm" initialValue="None" name="mascara_color"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uSG9MrlZdVG6D" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uSxGeiEDUQc7S" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="umtASRci4L6tw" type="uumQNW3VnxUOE" value="" name="ruta_imagen"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ulTO0q5ATaE2H" type="uvl6QqFOFlQWI" value="0" name="lower_white"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uyFcGGlT96HAD" type="uvl6QqFOFlQWI" value="255" name="upper_white"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="up9fzKKStlCN7" isOverride="false" name="cargar_imagen" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uecQnJ4E5oofJ" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uLtaIz6ZOCSdl" isOverride="false" name="aplicar_retoque_lab" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="unYBvGUDgdFvX" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u5e9uAi2aDqbB" isOverride="false" name="eliminar_fondo" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uHiUAqZ8DBqXo" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ugiD3vOgVPwmK" comment="Filtra los outliers usando el mÃ©todo del rango intercuartÃ­lico (IQR) para cada componente de color. Iterar sobre los canales R, G y B Crear una mÃ¡scara que solo mantiene los pÃ­xeles que cumplen con todos los filtros" isOverride="false" name="filtrar_outliers" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uAFOunKiVA5FA" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uFWVWaqzcds8c" type="uumQNW3VnxUOE" value="" name="colores"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uL9zaCIKjUz0X" comment=" Crear una mÃ¡scara a partir del contorno Extraer pÃ­xeles dentro del contorno en el espacio RGB Crear una imagen con el color representativo Almacenar las caracterÃ­sticas seleccionadas en un array de tipo floatself.caracteristicas = color_representativo.astype(np.float32)" isOverride="false" name="extraer_caracteristicas" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uJLP6kZDM9Jia" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uhLoOLJN00NS0" isOverride="false" name="visualizar_resultados" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uwRD3e2ntoolB" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uvJiiw1xoQJZs" name="ProcesadorAudio">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u3PQ8qjJQgSBq" type="up5AYnixiYVXm" comment="param: ruta_audio: Ruta al archivo de audio (.wav)." name="ruta_audio"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uyqfNYHXB6DDK" type="up5AYnixiYVXm" comment="param: ruta_audio: Ruta al archivo de audio (.wav)." initialValue="None" name="audio"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u2VADNJFIg5y6" type="up5AYnixiYVXm" comment="param: ruta_audio: Ruta al archivo de audio (.wav)." initialValue="None" name="tasa_muestreo"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="urK2nCrjEnUZY" type="up5AYnixiYVXm" comment="param: ruta_audio: Ruta al archivo de audio (.wav)." initialValue="None" name="caracteristicas"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uAGQXLDzHA71R" type="up5AYnixiYVXm" comment="param: ruta_audio: Ruta al archivo de audio (.wav)." initialValue="None" name="audio_recortado"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u32CfdN30Bhs9" type="up5AYnixiYVXm" comment="param: ruta_audio: Ruta al archivo de audio (.wav)." initialValue="None" name="audio_final"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u7eq9HOX3kUF4" type="up5AYnixiYVXm" comment="param: ruta_audio: Ruta al archivo de audio (.wav). Versiones normalizadas para reproducciÃ³n" initialValue="None" name="audio_original_normalizado"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u5xIX4U6mLccj" type="up5AYnixiYVXm" comment="param: ruta_audio: Ruta al archivo de audio (.wav). Versiones normalizadas para reproducciÃ³n" initialValue="None" name="audio_recortado_normalizado"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uEsVMJw92N5Qa" type="up5AYnixiYVXm" comment="param: ruta_audio: Ruta al archivo de audio (.wav). Versiones normalizadas para reproducciÃ³n CaracterÃ­sticas adicionales" initialValue="None" name="caracteristicas_mfcc"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uacyhyyZlK5ki" type="up5AYnixiYVXm" comment="param: ruta_audio: Ruta al archivo de audio (.wav). Versiones normalizadas para reproducciÃ³n CaracterÃ­sticas adicionales" initialValue="None" name="caracteristicas_spectral_contrast"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u2HBFbdoaayND" comment="param: ruta_audio: Ruta al archivo de audio (.wav). Versiones normalizadas para reproducciÃ³n CaracterÃ­sticas adicionales" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uKRMiq7ZRNHrE" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uJ6dV41xzOMvu" type="uumQNW3VnxUOE" value="" name="ruta_audio"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="upbh1iUTh1YWF" comment="Carga el audio desde la ruta especificada usando scipy.io.wavfile. Verificar si el audio es estÃ©reo y seleccionar un solo canal Selecciona el primer canal (izquierdo) VerificaciÃ³n audio en silencio Loguear estadÃ­sticas bÃ¡sicas del audio Crear versiÃ³n normalizada" isOverride="false" name="cargar_audio" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uElIlAneXPrR4" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ul8kCVw4LCGRt" isOverride="false" name="filtrar_pasabajo" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uVQ46djGBSnmw" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uxfJWnH7jr4LR" type="uumQNW3VnxUOE" value="" name="datos"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="upo6VHT2ViKwx" type="uvl6QqFOFlQWI" value="3000" name="frecuencia_corte"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uTndt3rsNxY61" isOverride="false" name="filtrar_pasaalto" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u8H2EmLNcvMID" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uIwt5dCheAe7U" type="uumQNW3VnxUOE" value="" name="datos"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uLYx8Si5ukmGK" type="uvl6QqFOFlQWI" value="300" name="frecuencia_corte"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uXsJqpIhkfJec" comment="Normaliza el audio a int16 - Cambio de formato. Si ya estÃ¡ en int16, devolver sin cambios Si es float, normalizar a int16 Reducir ligeramente la ganancia para evitar clipping (DistorsiÃ³n de la forma de onda) Otros formatos, intentar convertir a int16" isOverride="false" name="normalizar_audio_para_reproduccion" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uKsvrdXZWdrTB" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uBKVgRk0eOc7s" type="uumQNW3VnxUOE" value="" name="datos"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uDHKtBrFMJFQK" comment="Normaliza el audio para que su amplitud mÃ¡xima sea 32767 (16-bit PCM). Devuelve el audio sin cambios si estÃ¡ en silencio Asegurar que estÃ© en rango int16 NormalizaciÃ³n a 16-bit PCM" isOverride="false" name="normalizar_audio" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uKMbupyAI3Z7i" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u8AB1YKPwFjcJ" type="uumQNW3VnxUOE" value="" name="datos"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uBTXkzgmZ5oT2" comment="Aplica recortes iniciales, filtros pasa-alto y pasa-bajo, y normaliza el audio. DuraciÃ³n en segundos para recortar Recortar el inicio y el final Verificar si el recorte no elimina todo el audio No recortar si el audio es demasiado corto Crear versiÃ³n normalizada del audio recortado para reproducciÃ³n Aplicar filtros Normalizar" isOverride="false" name="preprocesar_audio" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="unxLqQt7ZNrtW" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uF3ENxKGk8N68" comment="        Extrae mÃºltiples caracterÃ­sticas del audio preprocesado:&#xa;        - MFCC&#xa;        - Spectral Contrast&#xa; Convertir audio a float para librosa Normalizar entre -1 y 1 Extraer MFCC Extraer Spectral Contrast Mantengo solo las caracterÃ­sticas que diferencian bien las clases: MFCC5, MFCC6, MFCC9, MFCC10 (indices 4,5,8,9) ANTES: Spectral Contrast2, Spectral Contrast5, Spectral Contrast6 (indices 1,4,5)  14, 17, 18 Concatena MFCC y Spectral Contrast 13 7 (20) Selecciona solo las caracterÃ­sticas relevantes (7)" isOverride="false" name="extraer_caracteristicas" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="up1cWHPpOlFNn" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uRlRF4jzoEhpX" comment=" Mono Reproducir el audio" isOverride="false" name="reproducir_audio" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ut6aH304D43vw" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ubo3oG6MLJG0w" type="uumQNW3VnxUOE" value="" name="datos"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uCKZzHUOV0Tnz" comment="Reproduce el audio original normalizado." isOverride="false" name="reproducir_original" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ut64mx2eSnpOL" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uCIapqxjIS5p1" comment="Reproduce el audio filtrado y normalizado." isOverride="false" name="reproducir_preprocesado" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u9MlyjsR7flop" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ui9nO4WDLCi76" isOverride="false" name="mostrar_interfaz" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uuVpz28Y7Fda9" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uDD1prHyPz3IM" name="Procesador">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uUfVung5SaiWH" type="up5AYnixiYVXm" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" name="rutas_db"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uNBDb9EnBitLJ" type="ucyBwzoAL3b1H" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" initialValue="[]" name="datos_audio"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uuXYjwuQf2Dfg" type="ucyBwzoAL3b1H" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" initialValue="[]" name="datos_imagen"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uTLM99Cl9oZQt" type="ucyBwzoAL3b1H" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" initialValue="[]" name="etiquetas_audio"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uI3PtTOzY6gtf" type="ucyBwzoAL3b1H" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" initialValue="[]" name="etiquetas_imagen"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uX1ajyp0hJEgP" type="uvl6QqFOFlQWI" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" initialValue="0" name="errores_audio"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uGHSgj4PuA2El" type="uvl6QqFOFlQWI" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" initialValue="0" name="errores_imagen"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uNeV6SjiGUL3V" type="uvl6QqFOFlQWI" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" initialValue="0" name="audios_exitosos"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uXNclwMhTLImv" type="uvl6QqFOFlQWI" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" initialValue="0" name="imagenes_exitosas"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uaVwTwc9EiqNS" type="ucyBwzoAL3b1H" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" initialValue="[]" name="archivos_audio_error"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u5JiRW7lnRqCP" type="ucyBwzoAL3b1H" comment="Inicializa el procesador general.&#xa;:param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" initialValue="[]" name="archivos_imagen_error"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uJ6y4iVoMjEbV" type="uvJiiw1xoQJZs" name="new_attribute"/>
+        <UML:Attribute visibility="private" isSpecification="false" xmi.id="uV5B8qYQRVExD" type="utsoqJluWiwRU" name="new_attribute_1"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uztrzT2SICdZ8" comment="        Inicializa el procesador general.&#xa;        :param rutas_db: Lista de rutas a las carpetas que contienen archivos de audio e imagen.&#xa;" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uTpnu6G4lYgR0" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uXDdmDXIHspZy" type="uumQNW3VnxUOE" value="" name="rutas_db"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKbN5miXg206N" comment="Obtiene una lista de archivos de audio en la carpeta especificada." isOverride="false" name="obtener_archivos_audio" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uhTTOMoUW4FT0" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uMpeV02U8dgEv" type="uumQNW3VnxUOE" value="" name="carpeta"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uwb1awBLTXqn3" comment="Obtiene una lista de archivos de imagen en la carpeta especificada." isOverride="false" name="obtener_archivos_imagen" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uv4Mfzw91aDBz" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uzka7BGeCgvnc" type="uumQNW3VnxUOE" value="" name="carpeta"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uKwRY5XC63p9R" comment="Genera la etiqueta basada en el nombre de la carpeta." isOverride="false" name="obtener_etiqueta" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uZGnPTQWVVfRX" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uibuTupdtBWBD" type="uumQNW3VnxUOE" value="" name="carpeta"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u3r4fqUYfkt4G" comment="Procesa todos los archivos de audio en una carpeta especÃ­fica." isOverride="false" name="procesar_audios" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uqEcUO5nFQQCV" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="ux0G0gD1K7fEz" type="uumQNW3VnxUOE" value="" name="carpeta"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ufvUtCzFqBejt" comment="Procesa todos los archivos de imagen en una carpeta especÃ­fica." isOverride="false" name="procesar_imagenes" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ufnFbgTw95fT8" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uPnONy01YJKd9" type="uumQNW3VnxUOE" value="" name="carpeta"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uRqdFan0QHeTW" comment="Procesa archivos de audio e imagen en todas las carpetas especificadas." isOverride="false" name="procesar_varias_carpetas" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uKTcz0RmMDrq1" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uEvGOn8LXJaUm" comment="Guarda los datos de audio e imagen procesados en un archivo JSON." isOverride="false" name="guardar_datos" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="utSl1ggUiUDHc" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uT5PJbAWsRJeK" comment="Muestra un resumen del procesamiento de los archivos." isOverride="false" name="mostrar_resumen" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ul8mhayh00Rc7" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uzXk9UlZoFnOT" name="Evaluador">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uPJuXoGfqEhaT" type="up5AYnixiYVXm" initialValue="None" name="caracteristicas_audio"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uWxrXUvKBswEf" type="up5AYnixiYVXm" initialValue="None" name="caracteristicas_imagen"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uUS3ZDCUVZqfK" type="up5AYnixiYVXm" initialValue="None" name="labels_imagen"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uJ5Jp14bjKl1f" type="up5AYnixiYVXm" initialValue="None" name="labels_audio"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uT4pvsgjhpczC" type="uDJ1gJ0jKerjC" initialValue="()" name="clasificador_audio"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uNBsEVruRDrJS" type="ue2czl20y5Wjy" initialValue="()" name="clasificador_imagen"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uZUS9bmkE6tmF" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u1ABEeVeoNQOd" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u3u9GZWv8Rw9m" type="uumQNW3VnxUOE" value="&quot;saves/modelos_entrenados.json&quot;" name="modelo_path"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u5TQRnnB4d3mF" type="uumQNW3VnxUOE" value="&quot;saves/datos_procesados.json&quot;" name="datos_procesados_path"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ue8ah9HmsGQWU" comment="Carga las caracterÃ­sticas de audio e imagen, etiquetas y centroides desde los archivos JSON. Cargar datos procesados (caracterÃ­sticas y etiquetas) Cargar modelo entrenado (clasificadores) Cargar clasificador de audio Cargar clasificador de imagen" isOverride="false" name="cargar_datos" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u552oXSW9GWkt" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uRCD0iPcJnWeM" type="uumQNW3VnxUOE" value="" name="modelo_path"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="usYFAy2fIGAIo" type="uumQNW3VnxUOE" value="" name="datos_procesados_path"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="umgGd3wTbeixM" comment="        Aplica PCA para reducir la dimensionalidad de las caracterÃ­sticas.&#xa;        :param caracteristicas: Array de caracterÃ­sticas con forma (n_samples, n_features).&#xa;        :param n_componentes: NÃºmero de componentes principales para reducir.&#xa;        :return: Array transformado con forma (n_samples, n_componentes).&#xa;" isOverride="false" name="reducir_dimensionalidad" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ub9DS1wRqnW54" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uGE5UlIvTz7iD" type="uumQNW3VnxUOE" value="" name="caracteristicas"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uSN0v35WEIRVW" type="uvl6QqFOFlQWI" value="3" name="n_componentes"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u8CbrSn9qu3xT" comment="        Calcula las estadÃ­sticas por etiqueta (promedio y varianza) y las muestra en tablas separadas por tipo.&#xa;        :param caracteristicas: Array de caracterÃ­sticas con forma (n_samples, n_features).&#xa;        :param etiquetas: Array de etiquetas correspondientes a cada muestra.&#xa;        :param tipo: Tipo de caracterÃ­sticas ('audio' o 'imagen').&#xa; Mostrar encabezados separados para cada secciÃ³n" isOverride="false" name="calcular_estadisticas_por_etiqueta" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uUTbTxUdR4VtE" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uNNg3DQmlcpaP" type="uumQNW3VnxUOE" value="" name="caracteristicas"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u8vEhRGWbJA5S" type="uumQNW3VnxUOE" value="" name="etiquetas"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uDxRwH2QmTmIv" type="uumQNW3VnxUOE" value="" name="tipo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uoq6AhedxEJYm" comment="EvalÃºa el rendimiento del clasificador de audio y calcula el porcentaje de aciertos. PredicciÃ³n real usando el clasificador" isOverride="false" name="evaluar_audio" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uuSZ3nWAuv7aT" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uhYD7uCe5EOJq" comment="EvalÃºa el rendimiento del clasificador de imagen y calcula el porcentaje de aciertos. PredicciÃ³n real usando el clasificador" isOverride="false" name="evaluar_imagen" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ueieLiVm8Wdan" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uVHVdv0MO5p2w" isOverride="false" name="ejecutar_evaluacion" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u64DcB4Ukxbcr" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u0VgJNVlGy5nE" comment=" Asignar colores a cada etiqueta Crear un diccionario para mapear etiquetas a colores Graficar cada punto con el color correspondiente a su etiqueta Verificar si es tipo 'imagen' y hay centroides disponibles Asignar un color predeterminado si no hay correspondencia Asignar el color de la etiqueta correspondiente a cada centroide Reducir dimensionalidad de los centroides si es necesario Graficar los centroides Evitar duplicaciÃ³n de etiquetas en la leyenda" isOverride="false" name="plot_3d_caracteristicas" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="utLpWr91YAFjb" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uhRD8d18V8RvT" type="up5AYnixiYVXm" value="" name="tipo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ue2czl20y5Wjy" name="ClasificadorImagen">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uzK4muOiCdt2X" type="up5AYnixiYVXm" initialValue="None" name="centroides"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uKeHEaVYnZusl" type="up5AYnixiYVXm" initialValue="None" name="etiquetas_centroides"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uPhO5dBYJhZgI" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uyZZIDhBtrnhZ" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="ujrnsnYJVrCVf" comment="Carga los centroides calculados por K-means y sus etiquetas correspondientes." isOverride="false" name="cargar_centroides" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ua5R0XXJo7N2U" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uI7LEMIaOZeua" type="uumQNW3VnxUOE" value="" name="centroides"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uokZFI2ehloN5" type="up5AYnixiYVXm" value="None" name="etiquetas_centroides"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uagXgTT8mtKjG" comment="        Predice la etiqueta de la imagen basÃ¡ndose en el centroide mÃ¡s cercano.&#xa;        :param caracteristicas_imagen: Array de caracterÃ­sticas extraÃ­das de la imagen a clasificar.&#xa;        :return: Etiqueta del centroide mÃ¡s cercano.&#xa; Calcular las distancias euclidianas manualmente RaÃ­z cuadrada de la suma de los cuadrados Encontrar el Ã­ndice del centroide mÃ¡s cercano Retorna el Ã­ndice si no hay etiquetas" isOverride="false" name="predecir" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u0UH0BKV4EJZ8" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uNvfP0eyxf7Xw" type="uumQNW3VnxUOE" value="" name="caracteristicas_imagen"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="urnaBKRaFEtXC" comment="Convierte el clasificador a un diccionario serializable en JSON." isOverride="false" name="to_dict" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ucxIbCjnkEonG" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uUTEVBjoIDC9C" comment="Carga los datos del clasificador desde un diccionario." isOverride="false" name="from_dict" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uXzoI8NHPII4w" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u2tJq2DfvC5Xy" type="uumQNW3VnxUOE" value="" name="data"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class visibility="public" isSpecification="false" namespace="Logical_View" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uAgxRlNsmVLRo" name="Entrenador">
+       <UML:Classifier.feature>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uu0FxrSZLY9Qn" type="up5AYnixiYVXm" name="k_vecinos"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uHrFs574Drd2F" type="up5AYnixiYVXm" name="k_centroides"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uaM58iF3vjKq3" type="up5AYnixiYVXm" name="datos_procesados_path"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uGdygVOZcieM5" type="uDJ1gJ0jKerjC" comment="Clasificadores" initialValue="()" name="clasificador_audio"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="u2nk0uXbYNLfH" type="ue2czl20y5Wjy" comment="Clasificadores" initialValue="()" name="clasificador_imagen"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uTY9X2FwrEaAn" type="up5AYnixiYVXm" comment="Clasificadores Datos de entrenamiento" initialValue="None" name="audios_entrenamiento"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="usXDt2otVB6k2" type="up5AYnixiYVXm" comment="Clasificadores Datos de entrenamiento" initialValue="None" name="imagenes_entrenamiento"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uI0OIJAHFPNcX" type="up5AYnixiYVXm" comment="Clasificadores Datos de entrenamiento" initialValue="None" name="labels_audio_entrenamiento"/>
+        <UML:Attribute visibility="public" isSpecification="false" xmi.id="uLvhqSrdHHi7Q" type="up5AYnixiYVXm" comment="Clasificadores Datos de entrenamiento" initialValue="None" name="labels_imagen_entrenamiento"/>
+        <UML:Operation stereotype="constructor" visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uTjprtCCYHYml" comment=" Clasificadores Datos de entrenamiento" isOverride="false" name="__init__" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uVwATRQJxY2My" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uaO0B10iOUrdf" type="uvl6QqFOFlQWI" value="5" name="k_vecinos"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="u9Rty2mxM2vIb" type="uvl6QqFOFlQWI" value="4" name="k_centroides"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="umM00yVC9nwln" type="uumQNW3VnxUOE" value="&quot;saves/datos_procesados.json&quot;" name="datos_procesados_path"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u9fSqxhYOImqu" comment="Carga los datos de entrenamiento desde el archivo de datos procesados." isOverride="false" name="cargar_datos" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="ujjGAKwjdYdwm" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uosipP98ehTWq" comment="Entrena el clasificador K-NN para audios utilizando los datos cargados. AsegÃºrate de que las etiquetas de audio estÃ©n disponibles" isOverride="false" name="entrenar_knn" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uoSmTPzBo16Xt" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uixeY7H1cRV38" comment="Entrena el clasificador K-means para imÃ¡genes utilizando los datos cargados. Paso 1: InicializaciÃ³n inspirada en K-means++ Paso 2: Asignar cada punto al centroide mÃ¡s cercano Paso 3: Calcular nuevos centroides Paso 4: Verificar la convergencia - Norma entre controides antiguos y nuevos" isOverride="false" name="entrenar_kmeans" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uHkls2JNkdL4s" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="up9xPy2cYDxJ5" comment="        Asigna una etiqueta a cada centroide basada en la etiqueta mÃ¡s frecuente en su cluster.&#xa;        :param labels_kmeans: Array de etiquetas asignadas por K-means a cada muestra.&#xa;        :return: Lista de etiquetas asignadas a cada centroide.&#xa;" isOverride="false" name="asignar_etiquetas_a_centroides" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uBBcni0A4ShaB" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="urvPgcP6NT4W6" type="uumQNW3VnxUOE" value="" name="labels_kmeans"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uqL37luVTblcz" comment="Configura y entrena ambos clasificadores: K-NN para audios y K-means para imÃ¡genes." isOverride="false" name="configurar_clasificadores" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uLEglwD06OUlp" type="uumQNW3VnxUOE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="uuDrAwtlcMWzh" comment=" Guardar centroides y etiquetas" isOverride="false" name="guardar_modelos" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="u8YRz51WZsMa9" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uxcq16dGrKyv3" type="uumQNW3VnxUOE" value="" name="ruta_modelo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation visibility="public" isSpecification="false" isQuery="false" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="u1SXfBEgJaLm2" comment=" Cargar clasificador de audio Cargar clasificador de imagen" isOverride="false" name="cargar_modelos" isInline="false" isVirtual="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter kind="return" xmi.id="uTQWOMVJCHTmr" type="uumQNW3VnxUOE"/>
+          <UML:Parameter visibility="private" isSpecification="false" xmi.id="uaX2L0zITwWX3" type="uumQNW3VnxUOE" value="" name="ruta_modelo"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="120">
+       <diagram showopsig="1" linecolor="#ff0000" snapx="25" showattribassocs="1" snapy="25" linewidth="0" showattsig="1" textcolor="#000000" isopen="1" showpackage="1" showpubliconly="0" showstereotype="1" name="class diagram" font="Sans Serif,9,-1,0,50,0,0,0,0,0" canvasheight="1098.48" canvaswidth="1836.61" localid="-1" snapcsgrid="0" showgrid="0" showops="1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" usefillcolor="1" fillcolor="#ffff00" zoom="65.75162324319884" xmi.id="uID1rwXtD5wMI" documentation="" showscope="1" snapgrid="0" showatts="1" type="1">
+        <widgets>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-994.322" showattsigs="601" showstereotype="1" y="-85.9612" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u4ivge04xKQJR" width="453" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uDJ1gJ0jKerjC" autoresize="1" showscope="1" height="153" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-1062.25" showattsigs="601" showstereotype="1" y="-347.437" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uzV3Flz2aASlR" width="561" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="ue2czl20y5Wjy" autoresize="1" showscope="1" height="136" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-238.958" showattsigs="601" showstereotype="1" y="-498.893" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uuCosOvOA7azb" width="920" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uAgxRlNsmVLRo" autoresize="1" showscope="1" height="306" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-248.719" showattsigs="601" showstereotype="1" y="-165.538" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="u1ggGECSLDgzK" width="1000" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uzXk9UlZoFnOT" autoresize="1" showscope="1" height="255" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-548.718" showattsigs="601" showstereotype="1" y="117.958" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uOxQREdGqGf8l" width="346" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uDD1prHyPz3IM" autoresize="1" showscope="1" height="391" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-1085.33" showattsigs="601" showstereotype="1" y="208.59" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uTgacYxq1vsoM" width="457" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="uvJiiw1xoQJZs" autoresize="1" showscope="1" height="391" showopsigs="601"/>
+         <classwidget linecolor="#ff0000" usesdiagramfillcolor="0" linewidth="0" textcolor="#000000" showoperations="1" usesdiagramusefillcolor="0" showpubliconly="0" showpackage="1" x="-119.233" showattsigs="601" showstereotype="1" y="273.813" showattributes="1" font="Sans Serif,9,-1,0,50,0,0,0,0,0" localid="uk0gy702zJiyy" width="646" isinstance="0" usefillcolor="1" fillcolor="#ffff00" xmi.id="utsoqJluWiwRU" autoresize="1" showscope="1" height="323" showopsigs="601"/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="uDJ1gJ0jKerjC" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uAgxRlNsmVLRo" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" localid="u4gwth01R5a0F" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uGdygVOZcieM5" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-238.958" starty="-192.893"/>
+           <endpoint endx="-541.322" endy="-85.9612"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-496" showstereotype="1" y="-86" text="clasificador_audio" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="u5iDAAX6n4IyP" pretext="+" role="710" width="94" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uvYllPmAJtXKb" autoresize="1" height="16"/>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="ue2czl20y5Wjy" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uAgxRlNsmVLRo" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" localid="uzPJPIElNScw0" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="u2nk0uXbYNLfH" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-238.958" starty="-468.464"/>
+           <endpoint endx="-501.251" endy="-347.437"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-499.5" showstereotype="1" y="-357" text="clasificador_imagen" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="u4MEBp935QOHN" pretext="+" role="710" width="101" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uXSnIpP1fcKID" autoresize="1" height="16"/>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="uDJ1gJ0jKerjC" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uzXk9UlZoFnOT" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" localid="uAtt82LXqw3QF" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uT4pvsgjhpczC" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-248.719" starty="-85.9612"/>
+           <endpoint endx="-541.322" endy="-85.9612"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-494" showstereotype="1" y="-76" text="clasificador_audio" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="uQziWnR0BgPD4" pretext="+" role="710" width="94" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uEG2QtWLMTFhF" autoresize="1" height="16"/>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="ue2czl20y5Wjy" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uzXk9UlZoFnOT" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="0" visibilityB="0" localid="uB2pW44fsxv16" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uNBsEVruRDrJS" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-248.719" starty="-165.538"/>
+           <endpoint endx="-501.251" endy="-211.437"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-511.5" showstereotype="1" y="-214" text="clasificador_imagen" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="utYIaKgTcmgCB" pretext="+" role="710" width="101" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="ujBeoNbm8QXKR" autoresize="1" height="16"/>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="uvJiiw1xoQJZs" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uDD1prHyPz3IM" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="1" visibilityB="1" localid="uz9xm3qBNa1Ye" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uJ6y4iVoMjEbV" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-548.718" starty="454.972"/>
+           <endpoint endx="-628.332" endy="454.972"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-613" showstereotype="1" y="455.5" text="new_attribute" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="udHl9aMEGf7T5" pretext="-" role="710" width="73" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uDPOcaxWWrMXZ" autoresize="1" height="16"/>
+         </assocwidget>
+         <assocwidget linecolor="#ff0000" indexa="1" usesdiagramfillcolor="1" widgetbid="utsoqJluWiwRU" indexb="1" linewidth="0" seqnum="" textcolor="none" usesdiagramusefillcolor="1" totalcounta="2" totalcountb="2" widgetaid="uDD1prHyPz3IM" font="Sans Serif,9,-1,0,50,0,0,0,0,0" visibilityA="1" visibilityB="1" localid="ujrDmmhNaCUAz" usefillcolor="1" fillcolor="none" changeabilityA="900" xmi.id="uV5B8qYQRVExD" changeabilityB="900" autoresize="1" type="510">
+          <linepath layout="Direct">
+           <startpoint startx="-202.718" starty="413.734"/>
+           <endpoint endx="-119.233" endy="413.734"/>
+          </linepath>
+          <floatingtext linecolor="#ff0000" usesdiagramfillcolor="1" linewidth="0" textcolor="none" usesdiagramusefillcolor="1" x="-176" showstereotype="1" y="416.5" text="new_attribute_1" font="MS Shell Dlg 2,7.5,-1,5,50,0,0,0,0,0" localid="uksswVSgmCIrX" pretext="-" role="710" width="83" isinstance="0" posttext="" usefillcolor="1" fillcolor="none" xmi.id="uuCiolJBBWD48" autoresize="1" height="16"/>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Use_Case_View" name="Use Case View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Component_View" name="Component View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Deployment_View" name="Deployment View">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model visibility="public" isSpecification="false" namespace="m1" isAbstract="false" isLeaf="false" isRoot="false" xmi.id="Entity_Relationship_Model" name="Entity Relationship Model">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="uID1rwXtD5wMI" uniqueid="uksswVSgmCIrX" documentation=""/>
+  <listview>
+   <listitem open="1" type="800" id="Views">
+    <listitem open="1" type="821" id="Component_View"/>
+    <listitem open="1" type="827" id="Deployment_View"/>
+    <listitem open="1" type="836" id="Entity_Relationship_Model"/>
+    <listitem open="1" type="801" id="Logical_View">
+     <listitem open="0" type="813" id="uDJ1gJ0jKerjC">
+      <listitem open="0" type="815" id="utLQB8L3ccOga"/>
+      <listitem open="0" type="814" id="uyMfmK5Kzy3aG"/>
+      <listitem open="0" type="815" id="uAgXs0OQ99v0Y"/>
+      <listitem open="0" type="815" id="uAPGM1TfvLBZ9"/>
+      <listitem open="0" type="814" id="ullgY0AdOMAbW"/>
+      <listitem open="0" type="814" id="uyrKjZYviuZs0"/>
+      <listitem open="0" type="815" id="uW42cMChIDDdJ"/>
+      <listitem open="0" type="815" id="u6Iw9rX97INd4"/>
+     </listitem>
+     <listitem open="0" type="813" id="ue2czl20y5Wjy">
+      <listitem open="0" type="815" id="uPhO5dBYJhZgI"/>
+      <listitem open="0" type="815" id="ujrnsnYJVrCVf"/>
+      <listitem open="0" type="814" id="uzK4muOiCdt2X"/>
+      <listitem open="0" type="814" id="uKeHEaVYnZusl"/>
+      <listitem open="0" type="815" id="uUTEVBjoIDC9C"/>
+      <listitem open="0" type="815" id="uagXgTT8mtKjG"/>
+      <listitem open="0" type="815" id="urnaBKRaFEtXC"/>
+     </listitem>
+     <listitem open="0" type="807" id="uID1rwXtD5wMI" label="class diagram"/>
+     <listitem open="0" type="830" id="Datatypes">
+      <listitem open="1" type="829" id="u4RC2dPJ6YrEh"/>
+      <listitem open="1" type="829" id="uj8cNScSfzHc1"/>
+      <listitem open="0" type="829" id="uBUSxPHgLH9M3"/>
+      <listitem open="1" type="829" id="uXaX589Gok9Xy"/>
+      <listitem open="1" type="829" id="uHMnxVTKqVvYv"/>
+      <listitem open="1" type="829" id="ub1Hh0tcHTPvZ"/>
+      <listitem open="1" type="829" id="ueAJ4lWstIT4U"/>
+      <listitem open="0" type="829" id="uyIcZyJaquhXt"/>
+      <listitem open="1" type="829" id="ueNBuxTNi3kHX"/>
+      <listitem open="1" type="829" id="u8amfRlcQe6z3"/>
+      <listitem open="1" type="829" id="uKgieHws6IRbr"/>
+      <listitem open="0" type="829" id="uP6csXABabDcc"/>
+      <listitem open="1" type="829" id="uL3i27ewDizJB"/>
+      <listitem open="0" type="829" id="uchGwtvGu6pIG"/>
+      <listitem open="0" type="829" id="uvl6QqFOFlQWI"/>
+      <listitem open="1" type="829" id="u2aFWX7LuBaTE"/>
+      <listitem open="1" type="829" id="uWcFbAAGZAtPN"/>
+      <listitem open="1" type="829" id="ucyBwzoAL3b1H"/>
+      <listitem open="1" type="829" id="ulPm2FMHb13KP"/>
+      <listitem open="0" type="829" id="u7QibwPXXxSMZ"/>
+      <listitem open="0" type="829" id="uT0VdHFV3QtCV"/>
+      <listitem open="1" type="829" id="uHjP3gE841aAk"/>
+      <listitem open="1" type="829" id="ulRAFR3IPh0h7"/>
+      <listitem open="1" type="829" id="uKaZ1iwctOVDi"/>
+      <listitem open="1" type="829" id="up5AYnixiYVXm"/>
+      <listitem open="1" type="829" id="ulQPrkK5tpEcZ"/>
+      <listitem open="1" type="829" id="uEMRHVLN4kPcm"/>
+      <listitem open="1" type="829" id="uLI9R2w6CJLqx"/>
+      <listitem open="0" type="829" id="uw7V6E6lCr7Rt"/>
+      <listitem open="1" type="829" id="uXVImouYixXmh"/>
+      <listitem open="1" type="829" id="uEelVRIwfiS28"/>
+      <listitem open="0" type="829" id="uLO9e345oM5lt"/>
+      <listitem open="0" type="829" id="uUcWv41qvyBKk"/>
+      <listitem open="0" type="829" id="uem1Vhv17EwOR"/>
+      <listitem open="0" type="829" id="upPA2D1AGggcf"/>
+      <listitem open="1" type="829" id="uEqgJnBwzttjS"/>
+      <listitem open="1" type="829" id="uyOikTdC4KwtY"/>
+      <listitem open="0" type="829" id="uumQNW3VnxUOE"/>
+      <listitem open="1" type="829" id="uy5X7Xx6wBBUF"/>
+      <listitem open="0" type="829" id="uGmMZJ5xdgQKG"/>
+      <listitem open="0" type="829" id="uyeDnMlmpIV7X"/>
+      <listitem open="0" type="829" id="uzGovJrG16uj6"/>
+      <listitem open="0" type="829" id="unWwB4RY371pX"/>
+      <listitem open="0" type="829" id="ujwwoHAzulfYU"/>
+      <listitem open="1" type="829" id="uRoPuiwJzrcw0"/>
+      <listitem open="1" type="829" id="uWKKl1Wj2510R"/>
+     </listitem>
+     <listitem open="0" type="813" id="uAgxRlNsmVLRo">
+      <listitem open="0" type="815" id="uTjprtCCYHYml"/>
+      <listitem open="0" type="815" id="up9xPy2cYDxJ5"/>
+      <listitem open="0" type="814" id="uTY9X2FwrEaAn"/>
+      <listitem open="0" type="815" id="u9fSqxhYOImqu"/>
+      <listitem open="0" type="815" id="u1SXfBEgJaLm2"/>
+      <listitem open="0" type="814" id="uGdygVOZcieM5"/>
+      <listitem open="0" type="814" id="u2nk0uXbYNLfH"/>
+      <listitem open="0" type="815" id="uqL37luVTblcz"/>
+      <listitem open="0" type="814" id="uaM58iF3vjKq3"/>
+      <listitem open="0" type="815" id="uixeY7H1cRV38"/>
+      <listitem open="0" type="815" id="uosipP98ehTWq"/>
+      <listitem open="0" type="815" id="uuDrAwtlcMWzh"/>
+      <listitem open="0" type="814" id="usXDt2otVB6k2"/>
+      <listitem open="0" type="814" id="uHrFs574Drd2F"/>
+      <listitem open="0" type="814" id="uu0FxrSZLY9Qn"/>
+      <listitem open="0" type="814" id="uI0OIJAHFPNcX"/>
+      <listitem open="0" type="814" id="uLvhqSrdHHi7Q"/>
+     </listitem>
+     <listitem open="0" type="813" id="uzXk9UlZoFnOT">
+      <listitem open="0" type="815" id="uZUS9bmkE6tmF"/>
+      <listitem open="0" type="815" id="u8CbrSn9qu3xT"/>
+      <listitem open="0" type="814" id="uPJuXoGfqEhaT"/>
+      <listitem open="0" type="814" id="uWxrXUvKBswEf"/>
+      <listitem open="0" type="815" id="ue8ah9HmsGQWU"/>
+      <listitem open="0" type="814" id="uT4pvsgjhpczC"/>
+      <listitem open="0" type="814" id="uNBsEVruRDrJS"/>
+      <listitem open="0" type="815" id="uVHVdv0MO5p2w"/>
+      <listitem open="0" type="815" id="uoq6AhedxEJYm"/>
+      <listitem open="0" type="815" id="uhYD7uCe5EOJq"/>
+      <listitem open="0" type="814" id="uJ5Jp14bjKl1f"/>
+      <listitem open="0" type="814" id="uUS3ZDCUVZqfK"/>
+      <listitem open="0" type="815" id="u0VgJNVlGy5nE"/>
+      <listitem open="0" type="815" id="umgGd3wTbeixM"/>
+     </listitem>
+     <listitem open="0" type="813" id="uDD1prHyPz3IM">
+      <listitem open="0" type="815" id="uztrzT2SICdZ8"/>
+      <listitem open="0" type="814" id="uaVwTwc9EiqNS"/>
+      <listitem open="0" type="814" id="u5JiRW7lnRqCP"/>
+      <listitem open="0" type="814" id="uNeV6SjiGUL3V"/>
+      <listitem open="0" type="814" id="uNBDb9EnBitLJ"/>
+      <listitem open="0" type="814" id="uuXYjwuQf2Dfg"/>
+      <listitem open="0" type="814" id="uX1ajyp0hJEgP"/>
+      <listitem open="0" type="814" id="uGHSgj4PuA2El"/>
+      <listitem open="0" type="814" id="uTLM99Cl9oZQt"/>
+      <listitem open="0" type="814" id="uI3PtTOzY6gtf"/>
+      <listitem open="0" type="815" id="uEvGOn8LXJaUm"/>
+      <listitem open="0" type="814" id="uXNclwMhTLImv"/>
+      <listitem open="0" type="815" id="uT5PJbAWsRJeK"/>
+      <listitem open="0" type="814" id="uJ6y4iVoMjEbV"/>
+      <listitem open="0" type="814" id="uV5B8qYQRVExD"/>
+      <listitem open="0" type="815" id="uKbN5miXg206N"/>
+      <listitem open="0" type="815" id="uwb1awBLTXqn3"/>
+      <listitem open="0" type="815" id="uKwRY5XC63p9R"/>
+      <listitem open="0" type="815" id="u3r4fqUYfkt4G"/>
+      <listitem open="0" type="815" id="ufvUtCzFqBejt"/>
+      <listitem open="0" type="815" id="uRqdFan0QHeTW"/>
+      <listitem open="0" type="814" id="uUfVung5SaiWH"/>
+     </listitem>
+     <listitem open="0" type="813" id="uvJiiw1xoQJZs">
+      <listitem open="0" type="815" id="u2HBFbdoaayND"/>
+      <listitem open="0" type="814" id="uyqfNYHXB6DDK"/>
+      <listitem open="0" type="814" id="u32CfdN30Bhs9"/>
+      <listitem open="0" type="814" id="u7eq9HOX3kUF4"/>
+      <listitem open="0" type="814" id="uAGQXLDzHA71R"/>
+      <listitem open="0" type="814" id="u5xIX4U6mLccj"/>
+      <listitem open="0" type="814" id="urK2nCrjEnUZY"/>
+      <listitem open="0" type="814" id="uEsVMJw92N5Qa"/>
+      <listitem open="0" type="814" id="uacyhyyZlK5ki"/>
+      <listitem open="0" type="815" id="upbh1iUTh1YWF"/>
+      <listitem open="0" type="815" id="uF3ENxKGk8N68"/>
+      <listitem open="0" type="815" id="uTndt3rsNxY61"/>
+      <listitem open="0" type="815" id="ul8kCVw4LCGRt"/>
+      <listitem open="0" type="815" id="ui9nO4WDLCi76"/>
+      <listitem open="0" type="815" id="uDHKtBrFMJFQK"/>
+      <listitem open="0" type="815" id="uXsJqpIhkfJec"/>
+      <listitem open="0" type="815" id="uBTXkzgmZ5oT2"/>
+      <listitem open="0" type="815" id="uRlRF4jzoEhpX"/>
+      <listitem open="0" type="815" id="uCKZzHUOV0Tnz"/>
+      <listitem open="0" type="815" id="uCIapqxjIS5p1"/>
+      <listitem open="0" type="814" id="u3PQ8qjJQgSBq"/>
+      <listitem open="0" type="814" id="u2VADNJFIg5y6"/>
+     </listitem>
+     <listitem open="0" type="813" id="utsoqJluWiwRU">
+      <listitem open="0" type="815" id="uSG9MrlZdVG6D"/>
+      <listitem open="0" type="815" id="uLtaIz6ZOCSdl"/>
+      <listitem open="0" type="814" id="u5PXRT4kEGhSZ"/>
+      <listitem open="0" type="815" id="up9fzKKStlCN7"/>
+      <listitem open="0" type="815" id="u5e9uAi2aDqbB"/>
+      <listitem open="0" type="814" id="u2b9pHikNggWW"/>
+      <listitem open="0" type="815" id="uL9zaCIKjUz0X"/>
+      <listitem open="0" type="815" id="ugiD3vOgVPwmK"/>
+      <listitem open="0" type="814" id="uzE5RmhBEhozc"/>
+      <listitem open="0" type="814" id="u4XSUN4Nj8QOW"/>
+      <listitem open="0" type="814" id="u75vd40LoN6eZ"/>
+      <listitem open="0" type="814" id="u3uOYmGDaenSz"/>
+      <listitem open="0" type="814" id="u4xyy6go2XsJZ"/>
+      <listitem open="0" type="814" id="uzmuc6TIbIk5Z"/>
+      <listitem open="0" type="814" id="ubWewxkHPPhZn"/>
+      <listitem open="0" type="814" id="uw7ltg5Ow7ihc"/>
+      <listitem open="0" type="814" id="u9IB1kmck71KF"/>
+      <listitem open="0" type="815" id="uhLoOLJN00NS0"/>
+     </listitem>
+    </listitem>
+    <listitem open="1" type="802" id="Use_Case_View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="Python">
+    <sourcecode value="self.k=k&#xa;self.audios_entrenamiento=None&#xa;self.labels_audio_entrenamiento=None&#xa;" id="utLQB8L3ccOga"/>
+    <sourcecode value="self.audios_entrenamiento=np.array([list(audio)for audio in audios])&#xa;self.labels_audio_entrenamiento=np.array(list(labels))&#xa;print(&quot;Datos de entrenamiento cargados para el modelo K-NN.&quot;)&#xa;" id="uAgXs0OQ99v0Y"/>
+    <sourcecode value="if self.audios_entrenamiento is None or self.labels_audio_entrenamiento is None:&#xa;  raise ValueError(&quot;El modelo K-NN no ha sido entrenado. Usa 'cargar_datos_entrenamiento' primero.&quot;)&#xa;&#xa;distancias=[&#xa;sum((a-b)**2 for a,b in zip(audio_entrenamiento,caracteristicas_audio))**0.5 for audio_entrenamiento in self.audios_entrenamiento]&#xa;indices_vecinos=sorted(range(len(distancias)),key=lambda i:distancias[i])[:self.k]&#xa;etiquetas_vecinos=[self.labels_audio_entrenamiento[i]for i in indices_vecinos]&#xa;conteo_etiquetas=:&#xa;&#xa;&#xa;for etiqueta in etiquetas_vecinos:&#xa;  if etiqueta in conteo_etiquetas:&#xa;    conteo_etiquetas[etiqueta]+=1&#xa;&#xa;  else:&#xa;    conteo_etiquetas[etiqueta]=1&#xa;&#xa;&#xa;etiqueta_predicha=max(conteo_etiquetas,key=conteo_etiquetas.get)&#xa;return etiqueta_predicha&#xa;" id="uW42cMChIDDdJ"/>
+    <sourcecode value="return:&#xa;&#xa;  &quot;k&quot;:self.k,&quot;audios_entrenamiento&quot;:self.audios_entrenamiento.tolist()if self.audios_entrenamiento is not None else None,&quot;labels_audio_entrenamiento&quot;:self.labels_audio_entrenamiento.tolist()if self.labels_audio_entrenamiento is not None else None&#xa;&#xa;" id="u6Iw9rX97INd4"/>
+    <sourcecode value="self.k=data.get(&quot;k&quot;,5)&#xa;self.audios_entrenamiento=np.array(data[&quot;audios_entrenamiento&quot;])if data.get(&quot;audios_entrenamiento&quot;)is not None else None&#xa;self.labels_audio_entrenamiento=np.array(data[&quot;labels_audio_entrenamiento&quot;])if data.get(&quot;labels_audio_entrenamiento&quot;)is not None else None&#xa;if self.audios_entrenamiento is not None and self.labels_audio_entrenamiento is not None:&#xa;  print(&quot;Datos de entrenamiento cargados desde el diccionario para el modelo K-NN.&quot;)&#xa;&#xa;else:&#xa;  print(&quot;Advertencia: No se pudieron cargar los datos de entrenamiento para el clasificador de audio.&quot;)" id="uAPGM1TfvLBZ9"/>
+    <sourcecode value="self.ruta_imagen=ruta_imagen&#xa;self.imagen=None&#xa;self.imagen_retoque=None&#xa;self.caracteristicas=None&#xa;self.mascara_fondo=None&#xa;self.imagen_sin_fondo=None&#xa;self.lower_white=lower_white&#xa;self.upper_white=upper_white&#xa;self.errores_porcentaje_fondo=[]&#xa;self.imagen_contorno=None&#xa;self.mascara_color=None&#xa;" id="uSG9MrlZdVG6D"/>
+    <sourcecode value="try:&#xa;  self.imagen=cv2.imread(self.ruta_imagen)&#xa;  if self.imagen is None:&#xa;    raise ValueError(f&quot;No se pudo cargar la imagen desde la ruta: {self.ruta_imagen}&quot;)&#xa;&#xa;  print(f&quot;Imagen cargada correctamente desde {self.ruta_imagen}&quot;)&#xa;&#xa;except FileNotFoundError:&#xa;  print(f&quot;Error: Archivo no encontrado: {self.ruta_imagen}&quot;)&#xa;  raise&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error al cargar la imagen: {e}&quot;)&#xa;  raise&#xa;&#xa;" id="up9fzKKStlCN7"/>
+    <sourcecode value="lab=cv2.cvtColor(self.imagen,cv2.COLOR_BGR2LAB)&#xa;l,a,b=cv2.split(lab)&#xa;clahe=cv2.createCLAHE(clipLimit=2.0,tileGridSize=(8,8))&#xa;l_clahe=clahe.apply(l)&#xa;lab_clahe=cv2.merge((l_clahe,a,b))&#xa;self.imagen_retoque=cv2.cvtColor(lab_clahe,cv2.COLOR_LAB2BGR)&#xa;print(&quot;Filtro LAB aplicado para mejorar la diferenciaciÃ³n.&quot;)&#xa;" id="uLtaIz6ZOCSdl"/>
+    <sourcecode value="if self.imagen_retoque is None:&#xa;  print(&quot;Error: La imagen con retoques no ha sido generada.&quot;)&#xa;  raise ValueError(&quot;La imagen con retoques no ha sido generada.&quot;)&#xa;&#xa;try:&#xa;  hsv=cv2.cvtColor(self.imagen_retoque,cv2.COLOR_BGR2HSV)&#xa;  lower_bound=np.array([0,0,self.lower_white])&#xa;  upper_bound=np.array([180,30,self.upper_white])&#xa;  mask=cv2.inRange(hsv,lower_bound,upper_bound)&#xa;  kernel=cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(5,5))&#xa;  mask=cv2.morphologyEx(mask,cv2.MORPH_OPEN,kernel,iterations=2)&#xa;  mask=cv2.morphologyEx(mask,cv2.MORPH_DILATE,kernel,iterations=1)&#xa;  self.mascara_fondo=mask&#xa;  mask_fg=cv2.bitwise_not(mask)&#xa;  self.imagen_sin_fondo=cv2.bitwise_and(self.imagen,self.imagen,mask=mask_fg)&#xa;  print(&quot;Fondo eliminado exitosamente.&quot;)&#xa;  porcentaje_fondo=np.sum(mask==255)/mask.size&#xa;  if porcentaje_fondo&lt;0.5:&#xa;    print(f&quot;Advertencia: Menos del 50% del fondo eliminado en {self.ruta_imagen}&quot;)&#xa;    self.errores_porcentaje_fondo.append(self.ruta_imagen)&#xa;&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error al eliminar el fondo: {e}&quot;)&#xa;  raise&#xa;&#xa;" id="u5e9uAi2aDqbB"/>
+    <sourcecode value="filtros=[]&#xa;for i in range(3):&#xa;  Q1=np.percentile(colores[:,i],25)&#xa;  Q3=np.percentile(colores[:,i],75)&#xa;  IQR=Q3-Q1&#xa;  filtro=(colores[:,i]>=(Q1-1.5*IQR))&amp;(colores[:,i]&lt;=(Q3+1.5*IQR))&#xa;  filtros.append(filtro)&#xa;&#xa;filtro_total=np.logical_and.reduce(filtros)&#xa;colores_filtrados=colores[filtro_total]&#xa;return colores_filtrados&#xa;" id="ugiD3vOgVPwmK"/>
+    <sourcecode value="if self.imagen_sin_fondo is None:&#xa;  print(&quot;Error: La imagen sin fondo no ha sido procesada.&quot;)&#xa;  raise ValueError(&quot;La imagen sin fondo no ha sido procesada.&quot;)&#xa;&#xa;try:&#xa;  gris=cv2.cvtColor(self.imagen_sin_fondo,cv2.COLOR_BGR2GRAY)&#xa;  contornos,_=cv2.findContours(gris,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)&#xa;  if contornos:&#xa;    contorno=max(contornos,key=cv2.contourArea)&#xa;    momentos=cv2.moments(contorno)&#xa;    hu=cv2.HuMoments(momentos).flatten()&#xa;    hu=-np.sign(hu)*np.log10(np.abs(hu)+1e-10)&#xa;    self.imagen_contorno=self.imagen_sin_fondo.copy()&#xa;    cv2.drawContours(self.imagen_contorno,[contorno],-1,(0,255,0),2)&#xa;    mascara=np.zeros_like(gris)&#xa;    cv2.drawContours(mascara,[contorno],-1,255,-1)&#xa;    rgb=self.imagen_sin_fondo[mascara==255]&#xa;    if rgb.size==0:&#xa;      color_representativo=np.array([0,0,0],dtype=np.uint8)&#xa;      print(&quot;Advertencia: No se encontraron pÃ­xeles dentro del contorno para calcular el color.&quot;)&#xa;&#xa;    else:&#xa;      rgb_filtrado=self.filtrar_outliers(rgb)&#xa;      if rgb_filtrado.size==0:&#xa;        print(&quot;Advertencia: No se encontraron colores vÃ¡lidos despuÃ©s del filtrado.&quot;)&#xa;        color_representativo=np.array([0,0,0],dtype=np.uint8)&#xa;&#xa;      else:&#xa;        color_representativo=np.median(rgb_filtrado,axis=0).astype(np.uint8)&#xa;&#xa;&#xa;    self.mascara_color=np.zeros_like(self.imagen_sin_fondo)&#xa;    self.mascara_color[mascara==255]=color_representativo&#xa;&#xa;  else:&#xa;    hu=np.zeros(7)&#xa;    self.imagen_contorno=self.imagen_sin_fondo.copy()&#xa;    print(&quot;Advertencia: No se encontraron contornos para calcular los momentos de Hu.&quot;)&#xa;&#xa;  indices_hu_seleccionados=[0,1,2,3]&#xa;  hu_seleccionados=hu[indices_hu_seleccionados]&#xa;  print(f&quot;Color representativo (B, G, R): {color_representativo}&quot;)&#xa;  self.caracteristicas=np.concatenate((hu_seleccionados,color_representativo)).astype(np.float32)&#xa;  print(f&quot;CaracterÃ­sticas extraÃ­das: {self.caracteristicas}&quot;)&#xa;  print(f&quot;NÃºmero de caracterÃ­sticas extraÃ­das: {len(self.caracteristicas)}&quot;)&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error al extraer caracterÃ­sticas: {e}&quot;)&#xa;  raise&#xa;&#xa;" id="uL9zaCIKjUz0X"/>
+    <sourcecode value="try:&#xa;  fig,axs=plt.subplots(1,6,figsize=(24,5))&#xa;  imagen_rgb=cv2.cvtColor(self.imagen,cv2.COLOR_BGR2RGB)&#xa;  axs[0].imshow(imagen_rgb)&#xa;  axs[0].set_title(&quot;Imagen Original&quot;)&#xa;  axs[0].axis('off')&#xa;  imagen_retoque_rgb=cv2.cvtColor(self.imagen_retoque,cv2.COLOR_BGR2RGB)&#xa;  axs[1].imshow(imagen_retoque_rgb)&#xa;  axs[1].set_title(&quot;Imagen con Retoques&quot;)&#xa;  axs[1].axis('off')&#xa;  axs[2].imshow(self.mascara_fondo,cmap='gray')&#xa;  axs[2].set_title(&quot;MÃ¡scara de Fondo&quot;)&#xa;  axs[2].axis('off')&#xa;  imagen_sin_fondo_rgb=cv2.cvtColor(self.imagen_sin_fondo,cv2.COLOR_BGR2RGB)&#xa;  axs[3].imshow(imagen_sin_fondo_rgb)&#xa;  axs[3].set_title(&quot;Imagen sin Fondo&quot;)&#xa;  axs[3].axis('off')&#xa;  imagen_contorno_rgb=cv2.cvtColor(self.imagen_contorno,cv2.COLOR_BGR2RGB)&#xa;  axs[4].imshow(imagen_contorno_rgb)&#xa;  axs[4].set_title(&quot;Imagen con Contornos&quot;)&#xa;  axs[4].axis('off')&#xa;  mascara_color_rgb=cv2.cvtColor(self.mascara_color,cv2.COLOR_BGR2RGB)&#xa;  axs[5].imshow(mascara_color_rgb)&#xa;  axs[5].set_title(&quot;MÃ¡scara con Color&quot;)&#xa;  axs[5].axis('off')&#xa;  plt.tight_layout()&#xa;  plt.show()&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error al visualizar resultados: {e}&quot;)&#xa;  raise&#xa;&#xa;" id="uhLoOLJN00NS0"/>
+    <sourcecode value="self.ruta_audio=ruta_audio&#xa;self.audio=None&#xa;self.tasa_muestreo=None&#xa;self.caracteristicas=None&#xa;self.audio_recortado=None&#xa;self.audio_final=None&#xa;self.audio_original_normalizado=None&#xa;self.audio_recortado_normalizado=None&#xa;self.caracteristicas_mfcc=None&#xa;self.caracteristicas_spectral_contrast=None&#xa;" id="u2HBFbdoaayND"/>
+    <sourcecode value="try:&#xa;  self.tasa_muestreo,audio=wavfile.read(self.ruta_audio)&#xa;  if audio.ndim==2:&#xa;    print(&quot;Audio estÃ©reo detectado. Seleccionando el canal izquierdo para procesamiento.&quot;)&#xa;    self.audio=audio[:,0]&#xa;&#xa;  else:&#xa;    self.audio=audio&#xa;&#xa;  if np.max(np.abs(self.audio))==0:&#xa;    print(&quot;Advertencia: El audio cargado estÃ¡ en silencio o tiene amplitud cero.&quot;)&#xa;&#xa;  else:&#xa;    print(&quot;Audio cargado con contenido vÃ¡lido.&quot;)&#xa;&#xa;  duracion=len(self.audio)/self.tasa_muestreo&#xa;  print(f&quot;DuraciÃ³n del audio: {duracion:.2f} segundos.&quot;)&#xa;  self.audio_original_normalizado=self.normalizar_audio_para_reproduccion(self.audio)&#xa;  print(f&quot;Original Normalizado: min={self.audio_original_normalizado.min()}, &quot;&#xa;  f&quot;max={self.audio_original_normalizado.max()}, &quot;f&quot;dtype={self.audio_original_normalizado.dtype}, &quot;f&quot;length={len(self.audio_original_normalizado)}&quot;)&#xa;except FileNotFoundError:&#xa;  print(f&quot;Error: El archivo {self.ruta_audio} no fue encontrado.&quot;)&#xa;  raise&#xa;&#xa;except ValueError:&#xa;  print(f&quot;Error: No se pudo leer el archivo {self.ruta_audio}. AsegÃºrate de que es un archivo WAV vÃ¡lido.&quot;)&#xa;  raise&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Se produjo un error inesperado al cargar el audio: {e}&quot;)&#xa;  raise&#xa;&#xa;" id="upbh1iUTh1YWF"/>
+    <sourcecode value="frecuencia_nyquist=self.tasa_muestreo/2.0&#xa;corte_normalizado=frecuencia_corte/frecuencia_nyquist&#xa;b,a=signal.butter(4,corte_normalizado,btype='low',analog=False)&#xa;datos_filtrados=signal.lfilter(b,a,datos)&#xa;print(f&quot;Filtro pasa-bajo aplicado con frecuencia de corte: {frecuencia_corte} Hz.&quot;)&#xa;return datos_filtrados&#xa;" id="ul8kCVw4LCGRt"/>
+    <sourcecode value="frecuencia_nyquist=self.tasa_muestreo/2.0&#xa;corte_normalizado=frecuencia_corte/frecuencia_nyquist&#xa;b,a=signal.butter(4,corte_normalizado,btype='high',analog=False)&#xa;datos_filtrados=signal.lfilter(b,a,datos)&#xa;print(f&quot;Filtro pasa-alto aplicado con frecuencia de corte: {frecuencia_corte} Hz.&quot;)&#xa;return datos_filtrados&#xa;" id="uTndt3rsNxY61"/>
+    <sourcecode value="if datos.dtype==np.int16:&#xa;  return datos&#xa;&#xa;elif np.issubdtype(datos.dtype,np.floating):&#xa;  max_amp=np.max(np.abs(datos))&#xa;  if max_amp==0:&#xa;    print(&quot;Advertencia: El audio tiene amplitud cero.&quot;)&#xa;    return datos.astype(np.int16)&#xa;&#xa;  datos_normalizados=datos/max_amp*32767*0.9&#xa;  datos_normalizados=np.clip(datos_normalizados,-32768,32767)&#xa;  return datos_normalizados.astype(np.int16)&#xa;&#xa;else:&#xa;  datos_normalizados=datos.astype(np.int16)&#xa;  return datos_normalizados&#xa;&#xa;" id="uXsJqpIhkfJec"/>
+    <sourcecode value="max_amp=np.max(np.abs(datos))&#xa;if max_amp==0:&#xa;  print(&quot;Advertencia: El audio tiene amplitud cero despuÃ©s de procesamiento.&quot;)&#xa;  return datos&#xa;&#xa;datos_normalizados=datos/max_amp*32767&#xa;datos_normalizados=np.clip(datos_normalizados,-32768,32767)&#xa;print(f&quot;Audio normalizado: amplitud mÃ­nima {np.min(datos_normalizados)}, mÃ¡xima {np.max(datos_normalizados)}&quot;)&#xa;return datos_normalizados.astype(np.int16)&#xa;" id="uDHKtBrFMJFQK"/>
+    <sourcecode value="if self.audio is None:&#xa;  raise ValueError(&quot;El audio no ha sido cargado. Llama a 'cargar_audio()' primero.&quot;)&#xa;&#xa;duracion_recorte=0.25&#xa;muestras_recorte=int(duracion_recorte*self.tasa_muestreo)&#xa;inicio=muestras_recorte&#xa;fin=-muestras_recorte if muestras_recorte!=0 else None&#xa;self.audio_recortado=self.audio[inicio:fin]&#xa;if len(self.audio_recortado)==0:&#xa;  print(&quot;Advertencia: El recorte eliminÃ³ todo el audio.&quot;)&#xa;  self.audio_recortado=self.audio&#xa;&#xa;else:&#xa;  print(f&quot;Audio recortado: {len(self.audio_recortado)} muestras.&quot;)&#xa;&#xa;self.audio_recortado_normalizado=self.normalizar_audio_para_reproduccion(self.audio_recortado)&#xa;print(f&quot;Recortado Normalizado: min={self.audio_recortado_normalizado.min()}, &quot;&#xa;f&quot;max={self.audio_recortado_normalizado.max()}, &quot;f&quot;dtype={self.audio_recortado_normalizado.dtype}, &quot;f&quot;length={len(self.audio_recortado_normalizado)}&quot;)audio_filtrado=self.filtrar_pasaalto(self.audio_recortado,frecuencia_corte=300)&#xa;audio_filtrado=self.filtrar_pasabajo(audio_filtrado,frecuencia_corte=3000)&#xa;self.audio_final=self.normalizar_audio(audio_filtrado)&#xa;print(&quot;Preprocesamiento de audio completado.&quot;)&#xa;" id="uBTXkzgmZ5oT2"/>
+    <sourcecode value="if self.audio_final is None:&#xa;  raise ValueError(&quot;El audio no ha sido preprocesado. Llama a 'preprocesar_audio()' primero.&quot;)&#xa;&#xa;audio_float=self.audio_final.astype(float)&#xa;audio_float/=np.max(np.abs(audio_float))&#xa;self.caracteristicas_mfcc=mfcc(self.audio_final,samplerate=self.tasa_muestreo,numcep=13,nfft=2048)&#xa;self.caracteristicas_mfcc=np.mean(self.caracteristicas_mfcc,axis=0)&#xa;print(f&quot;MFCC extraÃ­dos: {self.caracteristicas_mfcc.shape}&quot;)&#xa;S=librosa.feature.melspectrogram(y=audio_float,sr=self.tasa_muestreo,n_fft=2048,hop_length=512)&#xa;spectral_contrast=librosa.feature.spectral_contrast(S=S,sr=self.tasa_muestreo)&#xa;self.caracteristicas_spectral_contrast=np.mean(spectral_contrast,axis=1)&#xa;print(f&quot;Spectral Contrast extraÃ­das: {self.caracteristicas_spectral_contrast.shape}&quot;)&#xa;self.caracteristicas=np.concatenate([&#xa;self.caracteristicas_mfcc,self.caracteristicas_spectral_contrast])&#xa;print(f&quot;CaracterÃ­sticas combinadas antes de filtrar: {self.caracteristicas.shape}&quot;)&#xa;indices_a_mantener=[4,5,8,9,14,17,18]&#xa;self.caracteristicas=self.caracteristicas[indices_a_mantener]&#xa;print(f&quot;CaracterÃ­sticas combinadas filtradas: {self.caracteristicas.shape}&quot;)&#xa;" id="uF3ENxKGk8N68"/>
+    <sourcecode value="try:&#xa;  p=pyaudio.PyAudio()&#xa;  formato=pyaudio.paInt16&#xa;  canales=1&#xa;  tasa_muestreo=self.tasa_muestreo&#xa;  stream=p.open(format=formato,&#xa;  channels=canales,rate=tasa_muestreo,output=True)datos_reproducir=datos.tobytes()&#xa;  stream.write(datos_reproducir)&#xa;  stream.stop_stream()&#xa;  stream.close()&#xa;  p.terminate()&#xa;  print(&quot;ReproducciÃ³n de audio finalizada.&quot;)&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error al reproducir audio: {e}&quot;)&#xa;&#xa;" id="uRlRF4jzoEhpX"/>
+    <sourcecode value="if self.audio_original_normalizado is not None:&#xa;  threading.Thread(target=self.reproducir_audio,args=(self.audio_original_normalizado,)).start()&#xa;&#xa;else:&#xa;  print(&quot;Audio original normalizado no disponible.&quot;)&#xa;&#xa;" id="uCKZzHUOV0Tnz"/>
+    <sourcecode value="if self.audio_final is not None:&#xa;  threading.Thread(target=self.reproducir_audio,args=(self.audio_final,)).start()&#xa;&#xa;else:&#xa;  print(&quot;Audio preprocesado no disponible.&quot;)&#xa;&#xa;" id="uCIapqxjIS5p1"/>
+    <sourcecode value="ventana=tk.Tk()&#xa;ventana.title(&quot;Reproductor de Audio Procesado&quot;)&#xa;ventana.geometry(&quot;300x150&quot;)&#xa;tk.Button(ventana,text=&quot;Reproducir Original&quot;,command=self.reproducir_original).pack(pady=10)&#xa;tk.Button(ventana,text=&quot;Reproducir Filtrado y Normalizado&quot;,command=self.reproducir_preprocesado).pack(pady=10)&#xa;ventana.mainloop()&#xa;" id="ui9nO4WDLCi76"/>
+    <sourcecode value="self.rutas_db=rutas_db&#xa;self.datos_audio=[]&#xa;self.datos_imagen=[]&#xa;self.etiquetas_audio=[]&#xa;self.etiquetas_imagen=[]&#xa;self.errores_audio=0&#xa;self.errores_imagen=0&#xa;self.audios_exitosos=0&#xa;self.imagenes_exitosas=0&#xa;self.archivos_audio_error=[]&#xa;self.archivos_imagen_error=[]&#xa;" id="uztrzT2SICdZ8"/>
+    <sourcecode value="archivos_audio=[os.path.join(carpeta,archivo)for archivo in os.listdir(carpeta)if archivo.endswith('.wav')]&#xa;print(f&quot;Archivos de audio encontrados en {carpeta}: {len(archivos_audio)}&quot;)&#xa;return archivos_audio&#xa;" id="uKbN5miXg206N"/>
+    <sourcecode value="archivos_imagen=[os.path.join(carpeta,archivo)for archivo in os.listdir(carpeta)if archivo.endswith(('.jpg','.jpeg','.png'))]&#xa;print(f&quot;Archivos de imagen encontrados en {carpeta}: {len(archivos_imagen)}&quot;)&#xa;return archivos_imagen&#xa;" id="uwb1awBLTXqn3"/>
+    <sourcecode value="return os.path.basename(os.path.normpath(carpeta))&#xa;" id="uKwRY5XC63p9R"/>
+    <sourcecode value="etiqueta=self.obtener_etiqueta(carpeta)&#xa;archivos_audio=self.obtener_archivos_audio(carpeta)&#xa;if not archivos_audio:&#xa;  print(f&quot;Advertencia: No se encontraron archivos de audio en {carpeta}.&quot;)&#xa;  return&#xa;&#xa;for archivo_audio in archivos_audio:&#xa;  print(f&quot;Procesando audio: {archivo_audio}&quot;)&#xa;  try:&#xa;    procesador_audio=ProcesadorAudio(archivo_audio)&#xa;    procesador_audio.cargar_audio()&#xa;    procesador_audio.preprocesar_audio()&#xa;    procesador_audio.extraer_caracteristicas()&#xa;    self.datos_audio.append(procesador_audio.caracteristicas.tolist())&#xa;    self.etiquetas_audio.append(etiqueta)&#xa;    self.audios_exitosos+=1&#xa;    print(f&quot;CaracterÃ­sticas de audio extraÃ­das: {procesador_audio.caracteristicas}&quot;)&#xa;&#xa;  except Exception as e:&#xa;    print(f&quot;Error al procesar el audio {archivo_audio}: {e}&quot;)&#xa;    self.errores_audio+=1&#xa;    self.archivos_audio_error.append(archivo_audio)&#xa;&#xa;&#xa;" id="u3r4fqUYfkt4G"/>
+    <sourcecode value="etiqueta=self.obtener_etiqueta(carpeta)&#xa;archivos_imagen=self.obtener_archivos_imagen(carpeta)&#xa;if not archivos_imagen:&#xa;  print(f&quot;Advertencia: No se encontraron archivos de imagen en {carpeta}.&quot;)&#xa;  return&#xa;&#xa;for archivo_imagen in archivos_imagen:&#xa;  print(f&quot;Procesando imagen: {archivo_imagen}&quot;)&#xa;  try:&#xa;    procesador_imagen=ProcesadorImagen(archivo_imagen)&#xa;    procesador_imagen.cargar_imagen()&#xa;    procesador_imagen.aplicar_retoque_lab()&#xa;    procesador_imagen.eliminar_fondo()&#xa;    procesador_imagen.extraer_caracteristicas()&#xa;    self.datos_imagen.append(procesador_imagen.caracteristicas.tolist())&#xa;    self.etiquetas_imagen.append(etiqueta)&#xa;    self.imagenes_exitosas+=1&#xa;    print(f&quot;CaracterÃ­sticas de imagen extraÃ­das: {procesador_imagen.caracteristicas}&quot;)&#xa;&#xa;  except Exception as e:&#xa;    print(f&quot;Error al procesar la imagen {archivo_imagen}: {e}&quot;)&#xa;    self.errores_imagen+=1&#xa;    self.archivos_imagen_error.append(archivo_imagen)&#xa;&#xa;&#xa;" id="ufvUtCzFqBejt"/>
+    <sourcecode value="for carpeta in self.rutas_db:&#xa;  print(f&quot;\nProcesando carpeta: {carpeta}&quot;)&#xa;  self.procesar_audios(carpeta)&#xa;  self.procesar_imagenes(carpeta)&#xa;&#xa;" id="uRqdFan0QHeTW"/>
+    <sourcecode value="datos=:&#xa;&#xa;  &quot;audio&quot;:self.datos_audio,&quot;imagen&quot;:self.datos_imagen,&quot;etiquetas_audio&quot;:self.etiquetas_audio,&quot;etiquetas_imagen&quot;:self.etiquetas_imagen&#xa;&#xa;with open(&quot;saves/datos_procesados.json&quot;,&quot;w&quot;)as f:&#xa;  json.dump(datos,f,indent=4)&#xa;&#xa;print(&quot;Datos procesados guardados en: saves/datos_procesados.json&quot;)&#xa;" id="uEvGOn8LXJaUm"/>
+    <sourcecode value="print(&quot;\nResumen de procesamiento:&quot;)&#xa;print(f&quot;Audios procesados exitosamente: {self.audios_exitosos}&quot;)&#xa;print(f&quot;Audios con errores: {self.errores_audio}&quot;)&#xa;if self.archivos_audio_error:&#xa;  print(&quot;Archivos de audio con errores:&quot;)&#xa;  for archivo in self.archivos_audio_error:&#xa;    print(f&quot; - {archivo}&quot;)&#xa;&#xa;&#xa;print(f&quot;ImÃ¡genes procesadas exitosamente: {self.imagenes_exitosas}&quot;)&#xa;print(f&quot;ImÃ¡genes con errores: {self.errores_imagen}&quot;)&#xa;if self.archivos_imagen_error:&#xa;  print(&quot;Archivos de imagen con errores:&quot;)&#xa;  for archivo in self.archivos_imagen_error:&#xa;    print(f&quot; - {archivo}&quot;)&#xa;&#xa;&#xa;" id="uT5PJbAWsRJeK"/>
+    <sourcecode value="print(&quot;Inicializando Evaluador...&quot;)&#xa;self.caracteristicas_audio=None&#xa;self.caracteristicas_imagen=None&#xa;self.labels_imagen=None&#xa;self.labels_audio=None&#xa;print(&quot;Instanciando ClasificadorAudio y ClasificadorImagen...&quot;)&#xa;self.clasificador_audio=ClasificadorAudio()&#xa;self.clasificador_imagen=ClasificadorImagen()&#xa;self.cargar_datos(modelo_path,datos_procesados_path)&#xa;" id="uZUS9bmkE6tmF"/>
+    <sourcecode value="print(f&quot;Cargando datos desde {datos_procesados_path} y modelos desde {modelo_path}...&quot;)&#xa;try:&#xa;  with open(datos_procesados_path,&quot;r&quot;)as f:&#xa;    datos_procesados=json.load(f)&#xa;    self.caracteristicas_audio=np.array(datos_procesados[&quot;audio&quot;])&#xa;    self.caracteristicas_imagen=np.array(datos_procesados[&quot;imagen&quot;])&#xa;    self.labels_audio=np.array(datos_procesados.get(&quot;etiquetas_audio&quot;,[]))&#xa;    self.labels_imagen=np.array(datos_procesados.get(&quot;etiquetas_imagen&quot;,[]))&#xa;&#xa;  print(&quot;Datos procesados cargados correctamente.&quot;)&#xa;  with open(modelo_path,&quot;r&quot;)as f:&#xa;    modelos=json.load(f)&#xa;    audios_entrenamiento=modelos['clasificador_audio'].get('audios_entrenamiento',None)&#xa;    labels_audio_entrenamiento=modelos['clasificador_audio'].get('labels_audio_entrenamiento',None)&#xa;    if audios_entrenamiento is not None and labels_audio_entrenamiento is not None:&#xa;      print(&quot;Cargando ClasificadorAudio desde saves/modelos_entrenados.json...&quot;)&#xa;      self.clasificador_audio.from_dict(modelos['clasificador_audio'])&#xa;&#xa;    else:&#xa;      print(&quot;Advertencia: No se encontraron datos de entrenamiento para el clasificador de audio.&quot;)&#xa;&#xa;    print(&quot;Cargando ClasificadorImagen desde saves/modelos_entrenados.json...&quot;)&#xa;    self.clasificador_imagen.from_dict(modelos[&quot;clasificador_imagen&quot;])&#xa;&#xa;  print(&quot;Datos y modelos cargados exitosamente para evaluaciÃ³n.&quot;)&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error al cargar datos o modelos: {e}&quot;)&#xa;&#xa;" id="ue8ah9HmsGQWU"/>
+    <sourcecode value="pca=PCA(n_components=n_componentes)&#xa;caracteristicas_reducidas=pca.fit_transform(caracteristicas)&#xa;print(f&quot;Dimensionalidad reducida de {caracteristicas.shape[1]} a {n_componentes} componentes principales.&quot;)&#xa;return caracteristicas_reducidas&#xa;" id="umgGd3wTbeixM"/>
+    <sourcecode value="etiquetas_unicas=np.unique(etiquetas)&#xa;print(f&quot;EstadÃ­sticas de {tipo.capitalize()}: Promedio&quot;)&#xa;print(f&quot;{'Etiqueta':&lt;15} {'Promedio':&lt;100}&quot;)&#xa;print(&quot;=&quot;*120)&#xa;for etiqueta in etiquetas_unicas:&#xa;  indices=np.where(etiquetas==etiqueta)&#xa;  caracteristicas_etiqueta=caracteristicas[indices]&#xa;  promedio=np.mean(caracteristicas_etiqueta,axis=0)&#xa;  promedio_str=np.array2string(promedio,precision=3,separator=', ',suppress_small=True,max_line_width=80)&#xa;  print(f&quot;{etiqueta:&lt;15} {promedio_str:&lt;100}&quot;)&#xa;&#xa;print(&quot;\n&quot;+&quot;=&quot;*120+&quot;\n&quot;)&#xa;print(f&quot;EstadÃ­sticas de {tipo.capitalize()}: Varianza&quot;)&#xa;print(f&quot;{'Etiqueta':&lt;15} {'Varianza':&lt;100}&quot;)&#xa;print(&quot;=&quot;*120)&#xa;for etiqueta in etiquetas_unicas:&#xa;  indices=np.where(etiquetas==etiqueta)&#xa;  caracteristicas_etiqueta=caracteristicas[indices]&#xa;  varianza=np.var(caracteristicas_etiqueta,axis=0)&#xa;  varianza_str=np.array2string(varianza,precision=3,separator=', ',suppress_small=True,max_line_width=80)&#xa;  print(f&quot;{etiqueta:&lt;15} {varianza_str:&lt;100}&quot;)&#xa;&#xa;print(&quot;\n&quot;+&quot;=&quot;*120+&quot;\n&quot;)&#xa;" id="u8CbrSn9qu3xT"/>
+    <sourcecode value="if self.clasificador_audio is None or not hasattr(self.clasificador_audio,'predecir'):&#xa;  print(&quot;Error: El clasificador de audio no estÃ¡ entrenado o no tiene el mÃ©todo 'predecir'.&quot;)&#xa;  return 0.0&#xa;&#xa;aciertos=0&#xa;total=len(self.caracteristicas_audio)&#xa;for i,caracteristicas in enumerate(self.caracteristicas_audio):&#xa;  prediccion=self.clasificador_audio.predecir(caracteristicas)&#xa;  if prediccion==self.labels_audio[i]:&#xa;    aciertos+=1&#xa;&#xa;&#xa;porcentaje_aciertos=(aciertos/total)*100 if total>0 else 0.0&#xa;print(f&quot;Porcentaje de aciertos en audios: {porcentaje_aciertos:.2f}%&quot;)&#xa;return porcentaje_aciertos&#xa;" id="uoq6AhedxEJYm"/>
+    <sourcecode value="if self.clasificador_imagen is None or not hasattr(self.clasificador_imagen,'predecir'):&#xa;  print(&quot;Error: El clasificador de imagen no estÃ¡ entrenado o no tiene el mÃ©todo 'predecir'.&quot;)&#xa;  return 0.0&#xa;&#xa;aciertos=0&#xa;total=len(self.caracteristicas_imagen)&#xa;for i,caracteristicas in enumerate(self.caracteristicas_imagen):&#xa;  prediccion=self.clasificador_imagen.predecir(caracteristicas)&#xa;  if prediccion==self.labels_imagen[i]:&#xa;    aciertos+=1&#xa;&#xa;&#xa;porcentaje_aciertos=(aciertos/total)*100 if total>0 else 0.0&#xa;print(f&quot;Porcentaje de aciertos en imÃ¡genes: {porcentaje_aciertos:.2f}%&quot;)&#xa;return porcentaje_aciertos&#xa;" id="uhYD7uCe5EOJq"/>
+    <sourcecode value="print(&quot;Evaluando el rendimiento de los clasificadores...&quot;)&#xa;aciertos_audio=self.evaluar_audio()&#xa;aciertos_imagen=self.evaluar_imagen()&#xa;print(&quot;EvaluaciÃ³n completada.&quot;)&#xa;return aciertos_audio,aciertos_imagen&#xa;" id="uVHVdv0MO5p2w"/>
+    <sourcecode value="if tipo=='audio':&#xa;  caracteristicas=self.caracteristicas_audio&#xa;  etiquetas=self.labels_audio&#xa;  titulo=&quot;DistribuciÃ³n 3D de CaracterÃ­sticas de Audio&quot;&#xa;&#xa;else:&#xa;  caracteristicas=self.caracteristicas_imagen&#xa;  etiquetas=self.labels_imagen&#xa;  titulo=&quot;DistribuciÃ³n 3D de CaracterÃ­sticas de Imagen&quot;&#xa;&#xa;if caracteristicas is None or caracteristicas.shape[1]&lt;3:&#xa;  print(f&quot;Advertencia: Las caracterÃ­sticas de {tipo} no estÃ¡n disponibles o tienen menos de 3 dimensiones.&quot;)&#xa;  return&#xa;&#xa;if caracteristicas.shape[1]>3:&#xa;  caracteristicas=self.reducir_dimensionalidad(caracteristicas)&#xa;&#xa;etiquetas_unicas=np.unique(etiquetas)&#xa;num_etiquetas=len(etiquetas_unicas)&#xa;colores_cmap=plt.cm.get_cmap('tab10',num_etiquetas)&#xa;etiqueta_a_color=:&#xa;  etiqueta:colores_cmap(idx)for idx,etiqueta in enumerate(etiquetas_unicas)&#xa;&#xa;fig=plt.figure()&#xa;ax=fig.add_subplot(111,projection='3d')&#xa;for etiqueta in etiquetas_unicas:&#xa;  indices=np.where(etiquetas==etiqueta)&#xa;  ax.scatter(&#xa;  caracteristicas[indices,0],caracteristicas[indices,1],caracteristicas[indices,2],color=etiqueta_a_color[etiqueta],marker='o',alpha=0.7,s=30,label=f&quot;Etiqueta: {etiqueta}&quot;)&#xa;&#xa;if tipo=='imagen'and self.clasificador_imagen.centroides is not None and self.clasificador_imagen.etiquetas_centroides is not None:&#xa;  unique_labels=self.clasificador_imagen.etiquetas_centroides&#xa;  num_centroides=len(self.clasificador_imagen.centroides)&#xa;  num_unique_labels=len(np.unique(unique_labels))&#xa;  if num_centroides!=num_unique_labels:&#xa;    print(&quot;Advertencia: El nÃºmero de centroides no coincide con el nÃºmero de etiquetas Ãºnicas.&quot;)&#xa;    centroid_colors=['black']*num_centroides&#xa;&#xa;  else:&#xa;    centroid_colors=[etiqueta_a_color[etiqueta]for etiqueta in unique_labels]&#xa;&#xa;  if self.clasificador_imagen.centroides.shape[1]>3:&#xa;    centroides_reducidos=self.reducir_dimensionalidad(self.clasificador_imagen.centroides)&#xa;&#xa;  else:&#xa;    centroides_reducidos=self.clasificador_imagen.centroides&#xa;&#xa;  for idx,centroide in enumerate(centroides_reducidos):&#xa;    etiqueta=unique_labels[idx]&#xa;    ax.scatter(&#xa;    centroide[0],centroide[1],centroide[2],color=centroid_colors[idx],marker='^',s=100,edgecolors='k',label=f&quot;Centroide: {etiqueta}&quot;)&#xa;&#xa;&#xa;handles,labels=ax.get_legend_handles_labels()&#xa;unique=list(dict(zip(labels,handles)).items())&#xa;ax.legend([item[1]for item in unique],[item[0]for item in unique])&#xa;ax.set_xlabel(&quot;Componente Principal 1&quot;)&#xa;ax.set_ylabel(&quot;Componente Principal 2&quot;)&#xa;ax.set_zlabel(&quot;Componente Principal 3&quot;)&#xa;ax.set_title(titulo)&#xa;plt.show()" id="u0VgJNVlGy5nE"/>
+    <sourcecode value="self.centroides=None&#xa;self.etiquetas_centroides=None&#xa;" id="uPhO5dBYJhZgI"/>
+    <sourcecode value="self.centroides=np.array([list(centroide)for centroide in centroides])&#xa;self.etiquetas_centroides=etiquetas_centroides&#xa;if etiquetas_centroides is not None:&#xa;  print(&quot;Centroides y sus etiquetas cargados exitosamente.&quot;)&#xa;&#xa;else:&#xa;  print(&quot;Centroides cargados sin etiquetas.&quot;)&#xa;&#xa;" id="ujrnsnYJVrCVf"/>
+    <sourcecode value="if self.centroides is None:&#xa;  raise ValueError(&quot;Los centroides no han sido cargados. Usa 'cargar_centroides' primero.&quot;)&#xa;&#xa;distancias=[]&#xa;for centroide in self.centroides:&#xa;  distancia=0&#xa;  for a,b in zip(centroide,caracteristicas_imagen):&#xa;    distancia+=(a-b)**2&#xa;&#xa;  distancia=distancia**0.5&#xa;  distancias.append(distancia)&#xa;&#xa;indice_cercano=distancias.index(min(distancias))&#xa;if self.etiquetas_centroides is not None:&#xa;  return self.etiquetas_centroides[indice_cercano]&#xa;&#xa;else:&#xa;  return indice_cercano&#xa;&#xa;" id="uagXgTT8mtKjG"/>
+    <sourcecode value="return:&#xa;&#xa;  &quot;centroides&quot;:self.centroides.tolist()if self.centroides is not None else None,&quot;etiquetas_centroides&quot;:self.etiquetas_centroides if self.etiquetas_centroides is not None else None&#xa;&#xa;" id="urnaBKRaFEtXC"/>
+    <sourcecode value="self.centroides=np.array(data[&quot;centroides&quot;])if data.get(&quot;centroides&quot;)is not None else None&#xa;self.etiquetas_centroides=data.get(&quot;etiquetas_centroides&quot;,None)&#xa;if self.centroides is not None:&#xa;  print(&quot;Centroides y etiquetas cargados desde el diccionario.&quot;)&#xa;&#xa;else:&#xa;  print(&quot;Centroides no encontrados en el diccionario.&quot;)" id="uUTEVBjoIDC9C"/>
+    <sourcecode value="self.k_vecinos=k_vecinos&#xa;self.k_centroides=k_centroides&#xa;self.datos_procesados_path=datos_procesados_path&#xa;self.clasificador_audio=ClasificadorAudio()&#xa;self.clasificador_imagen=ClasificadorImagen()&#xa;self.audios_entrenamiento=None&#xa;self.imagenes_entrenamiento=None&#xa;self.labels_audio_entrenamiento=None&#xa;self.labels_imagen_entrenamiento=None&#xa;" id="uTjprtCCYHYml"/>
+    <sourcecode value="if not os.path.exists(self.datos_procesados_path):&#xa;  print(f&quot;Error: No se encontrÃ³ el archivo de datos procesados en: {self.datos_procesados_path}&quot;)&#xa;  raise FileNotFoundError(f&quot;Archivo de datos procesados '{self.datos_procesados_path}' no encontrado.&quot;)&#xa;&#xa;try:&#xa;  with open(self.datos_procesados_path,'r')as f:&#xa;    datos=json.load(f)&#xa;    self.audios_entrenamiento=np.array(datos['audio'])&#xa;    self.labels_audio_entrenamiento=np.array(datos['etiquetas_audio'])&#xa;    self.imagenes_entrenamiento=np.array(datos['imagen'])&#xa;    self.labels_imagen_entrenamiento=np.array(datos['etiquetas_imagen'])&#xa;&#xa;  print(&quot;Datos de entrenamiento cargados exitosamente desde el archivo.&quot;)&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error al cargar datos procesados: {e}&quot;)&#xa;  raise&#xa;&#xa;" id="u9fSqxhYOImqu"/>
+    <sourcecode value="if self.audios_entrenamiento is None or self.audios_entrenamiento.size==0:&#xa;  print(&quot;Error: No hay datos de audio cargados para entrenar K-NN.&quot;)&#xa;  raise ValueError(&quot;No hay datos de audio cargados para entrenar K-NN.&quot;)&#xa;&#xa;if self.labels_audio_entrenamiento is None or len(self.labels_audio_entrenamiento)!=len(self.audios_entrenamiento):&#xa;  print(&quot;Error: Las etiquetas de audio no estÃ¡n disponibles o no coinciden con las caracterÃ­sticas.&quot;)&#xa;  raise ValueError(&quot;Las etiquetas de audio no estÃ¡n disponibles o no coinciden con las caracterÃ­sticas.&quot;)&#xa;&#xa;self.clasificador_audio.cargar_datos_entrenamiento(self.audios_entrenamiento,self.labels_audio_entrenamiento)&#xa;print(&quot;Clasificador K-NN para audio configurado y entrenado.&quot;)&#xa;" id="uosipP98ehTWq"/>
+    <sourcecode value="if self.imagenes_entrenamiento is None or self.imagenes_entrenamiento.size==0:&#xa;  print(&quot;Error: No hay datos de imagen cargados para entrenar K-means.&quot;)&#xa;  raise ValueError(&quot;No hay datos de imagen cargados para entrenar K-means.&quot;)&#xa;&#xa;if self.labels_imagen_entrenamiento is None or len(self.labels_imagen_entrenamiento)!=len(self.imagenes_entrenamiento):&#xa;  print(&quot;Error: Las etiquetas de imagen no estÃ¡n disponibles o no coinciden con las caracterÃ­sticas.&quot;)&#xa;  raise ValueError(&quot;Las etiquetas de imagen no estÃ¡n disponibles o no coinciden con las caracterÃ­sticas.&quot;)&#xa;&#xa;n_samples,n_features=self.imagenes_entrenamiento.shape&#xa;max_iter=300&#xa;tol=1e-4&#xa;centroides=[self.imagenes_entrenamiento[np.random.randint(0,n_samples)]]&#xa;for _ in range(1,self.k_centroides):&#xa;  distancias=np.array([&#xa;  min(np.sum((muestra-centroide)**2)for centroide in centroides)for muestra in self.imagenes_entrenamiento])&#xa;  probabilidades=distancias/distancias.sum()&#xa;  nuevo_centroide=self.imagenes_entrenamiento[np.random.choice(n_samples,p=probabilidades)]&#xa;  centroides.append(nuevo_centroide)&#xa;&#xa;centroides=np.array(centroides)&#xa;for _ in range(max_iter):&#xa;  etiquetas=np.array([&#xa;  np.argmin([np.sum((muestra-centroide)**2)for centroide in centroides])for muestra in self.imagenes_entrenamiento])&#xa;  nuevos_centroides=np.array([&#xa;  self.imagenes_entrenamiento[etiquetas==i].mean(axis=0)if np.any(etiquetas==i)else centroides[i]for i in range(self.k_centroides)])&#xa;  suma_cuadrados=0.0&#xa;  for i in range(self.k_centroides):&#xa;    diferencia=centroides[i]-nuevos_centroides[i]&#xa;    suma_cuadrados+=np.sum(diferencia**2)&#xa;&#xa;  desplazamiento=np.sqrt(suma_cuadrados)&#xa;  if desplazamiento&lt;tol:&#xa;    break&#xa;&#xa;  centroides=nuevos_centroides&#xa;&#xa;etiquetas_clusters=self.asignar_etiquetas_a_centroides(etiquetas)&#xa;self.clasificador_imagen.cargar_centroides(centroides,etiquetas_clusters)&#xa;print(&quot;Clasificador K-means para imÃ¡genes configurado y entrenado.&quot;)&#xa;" id="uixeY7H1cRV38"/>
+    <sourcecode value="etiquetas_centroides=[]&#xa;for i in range(self.k_centroides):&#xa;  indices=np.where(labels_kmeans==i)[0]&#xa;  etiquetas_cluster=self.labels_imagen_entrenamiento[indices]&#xa;  if len(etiquetas_cluster)==0:&#xa;    etiqueta_mas_comun=&quot;Sin_Etiqueta&quot;&#xa;&#xa;  else:&#xa;    etiqueta_mas_comun=Counter(etiquetas_cluster).most_common(1)[0][0]&#xa;&#xa;  etiquetas_centroides.append(etiqueta_mas_comun)&#xa;  print(f&quot;Centroide {i}: Etiqueta asignada '{etiqueta_mas_comun}'&quot;)&#xa;&#xa;return etiquetas_centroides&#xa;" id="up9xPy2cYDxJ5"/>
+    <sourcecode value="self.entrenar_knn()&#xa;self.entrenar_kmeans()&#xa;print(&quot;Clasificadores configurados y entrenados.&quot;)&#xa;" id="uqL37luVTblcz"/>
+    <sourcecode value="modelos=:&#xa;&#xa;  'clasificador_audio':self.clasificador_audio.to_dict(),'clasificador_imagen':self.clasificador_imagen.to_dict()&#xa;&#xa;try:&#xa;  with open(ruta_modelo,'w')as f:&#xa;    json.dump(modelos,f,indent=4)&#xa;&#xa;  print(f&quot;Modelos entrenados guardados exitosamente en {ruta_modelo}.&quot;)&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Error al guardar los modelos en {ruta_modelo}: {e}&quot;)&#xa;  raise&#xa;&#xa;" id="uuDrAwtlcMWzh"/>
+    <sourcecode value="if not os.path.exists(ruta_modelo):&#xa;  print(f&quot;Error: No se encontrÃ³ el archivo de modelo en la ruta especificada: {ruta_modelo}&quot;)&#xa;  raise FileNotFoundError(f&quot;No se encontrÃ³ el archivo de modelo en la ruta especificada: {ruta_modelo}&quot;)&#xa;&#xa;try:&#xa;  with open(ruta_modelo,'r')as f:&#xa;    modelos=json.load(f)&#xa;    self.clasificador_audio.from_dict(modelos['clasificador_audio'])&#xa;    self.clasificador_imagen.from_dict(modelos['clasificador_imagen'])&#xa;&#xa;  print(f&quot;Modelos entrenados cargados exitosamente desde {ruta_modelo}.&quot;)&#xa;&#xa;except json.JSONDecodeError:&#xa;  print(f&quot;Error: El archivo de modelo {ruta_modelo} estÃ¡ corrupto o no es vÃ¡lido.&quot;)&#xa;  raise&#xa;&#xa;except Exception as e:&#xa;  print(f&quot;Se produjo un error inesperado al cargar los modelos: {e}&quot;)&#xa;  raise" id="u1SXfBEgJaLm2"/>
+   </codegenerator>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
