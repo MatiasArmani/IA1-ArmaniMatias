@@ -48,7 +48,7 @@ def entrenar_modelos(numero_iteraciones=10):
             continue
 
         # Guardar modelos entrenados temporalmente
-        modelo_temp_path = f"temps/{TRAINED_MODEL_PATH}_temp_iter{iteracion}"
+        modelo_temp_path = f"{TRAINED_MODEL_PATH}_temp_iter{iteracion}"
         try:
             entrenador.guardar_modelos(modelo_temp_path)
             print(f"Modelo temporal guardado en: {modelo_temp_path}")
@@ -89,8 +89,8 @@ def entrenar_modelos(numero_iteraciones=10):
     try:
         import os
         for iteracion in range(1, numero_iteraciones + 1):
-            modelo_temp_path = f"temps/{TRAINED_MODEL_PATH}_temp_iter{iteracion}"
-            if modelo_temp_path != mejor_modelo_path and os.path.exists(modelo_temp_path):
+            modelo_temp_path = f"{TRAINED_MODEL_PATH}_temp_iter{iteracion}"
+            if os.path.exists(modelo_temp_path):
                 os.remove(modelo_temp_path)
                 print(f"Modelo temporal eliminado: {modelo_temp_path}")
     except Exception as e:
