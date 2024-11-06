@@ -7,7 +7,7 @@ from ClasificadorImagen import ClasificadorImagen
 from collections import Counter
 
 class Entrenador:
-    def __init__(self, k_vecinos=5, k_centroides=4, datos_procesados_path="datos_procesados.json"):
+    def __init__(self, k_vecinos=5, k_centroides=4, datos_procesados_path="saves/datos_procesados.json"):
         self.k_vecinos = k_vecinos
         self.k_centroides = k_centroides
         self.datos_procesados_path = datos_procesados_path

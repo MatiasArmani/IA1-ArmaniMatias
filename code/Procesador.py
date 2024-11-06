@@ -104,9 +104,9 @@ class Procesador:
             "etiquetas_audio": self.etiquetas_audio,
             "etiquetas_imagen": self.etiquetas_imagen
         }
-        with open("datos_procesados.json", "w") as f:
+        with open("saves/datos_procesados.json", "w") as f:
             json.dump(datos, f, indent=4)
-        print("Datos procesados guardados en: datos_procesados.json")
+        print("Datos procesados guardados en: saves/datos_procesados.json")
 
     def mostrar_resumen(self):
         """Muestra un resumen del procesamiento de los archivos."""

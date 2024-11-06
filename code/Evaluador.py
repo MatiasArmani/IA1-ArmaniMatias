@@ -7,7 +7,7 @@ from ClasificadorAudio import ClasificadorAudio
 from ClasificadorImagen import ClasificadorImagen
 
 class Evaluador:
-    def __init__(self, modelo_path="modelos_entrenados.json", datos_procesados_path="datos_procesados.json"):
+    def __init__(self, modelo_path="saves/modelos_entrenados.json", datos_procesados_path="saves/datos_procesados.json"):
         print("Inicializando Evaluador...")
         self.caracteristicas_audio = None
         self.caracteristicas_imagen = None
@@ -41,13 +41,13 @@ class Evaluador:
                 audios_entrenamiento = modelos['clasificador_audio'].get('audios_entrenamiento', None)
                 labels_audio_entrenamiento = modelos['clasificador_audio'].get('labels_audio_entrenamiento', None)
                 if audios_entrenamiento is not None and labels_audio_entrenamiento is not None:
-                    print("Cargando ClasificadorAudio desde modelos_entrenados.json...")
+                    print("Cargando ClasificadorAudio desde saves/modelos_entrenados.json...")
                     self.clasificador_audio.from_dict(modelos['clasificador_audio'])
                 else:
                     print("Advertencia: No se encontraron datos de entrenamiento para el clasificador de audio.")
                 
                 # Cargar clasificador de imagen
-                print("Cargando ClasificadorImagen desde modelos_entrenados.json...")
+                print("Cargando ClasificadorImagen desde saves/modelos_entrenados.json...")
                 self.clasificador_imagen.from_dict(modelos["clasificador_imagen"])
             
             print("Datos y modelos cargados exitosamente para evaluación.")

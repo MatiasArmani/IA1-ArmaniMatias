@@ -12,7 +12,7 @@ import tkinter as tk
 
 app = Flask(__name__)
 
-MODEL_PATH = "modelos_entrenados.json"
+MODEL_PATH = "saves/modelos_entrenados.json"
 TEMP_DIR = tempfile.gettempdir()
 EXTENSIONES_AUDIO_PERMITIDAS = {'wav'}
 EXTENSIONES_IMAGEN_PERMITIDAS = {'jpg', 'jpeg', 'png'}
@@ -20,7 +20,7 @@ EXTENSIONES_IMAGEN_PERMITIDAS = {'jpg', 'jpeg', 'png'}
 # Variable global para el proceso del servidor
 server_process = None
 
-entrenador = Entrenador(datos_procesados_path="datos_procesados.json")
+entrenador = Entrenador(datos_procesados_path="saves/datos_procesados.json")
 
 def archivo_permitido(nombre_archivo, extensiones_permitidas):
     return '.' in nombre_archivo and nombre_archivo.rsplit('.', 1)[1].lower() in extensiones_permitidas
