@@ -3,6 +3,7 @@ numpy
 scipy
 opencv-python
 python_speech_features
-scikit-learn
 questionary
 matplotlib
+pyaudio
+librosa
