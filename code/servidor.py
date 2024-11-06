@@ -125,21 +125,17 @@ def clasificar_imagen():
             procesador_imagen.eliminar_fondo()
             procesador_imagen.extraer_caracteristicas()
 
-            # Inicia la visualización en un hilo separado
             iniciar_visualizacion_imagen(procesador_imagen)
 
-            # Realiza la predicción
             prediccion = entrenador.clasificador_imagen.predecir(procesador_imagen.caracteristicas)
-            etiqueta_predicha = str(prediccion)  # Asegurarse de que la etiqueta sea una cadena
+            etiqueta_predicha = str(prediccion)
 
-            # Almacenar temporalmente la imagen y su etiqueta
+            # Almacenar la imagen con su etiqueta y renderizar la página de resultado
             imagenes_temporales[etiqueta_predicha] = temp_image_path
-
-            return jsonify({'prediccion': etiqueta_predicha})
+            return render_template('resultado_imagen.html', prediccion=etiqueta_predicha)
             
         except Exception as e:
             return jsonify({'error': f"Error al procesar la imagen: {str(e)}"}), 500
-        # No eliminamos la imagen aquí para que esté disponible temporalmente
     else:
         return jsonify({'error': 'No se proporcionó un archivo de imagen válido.'}), 400
     
