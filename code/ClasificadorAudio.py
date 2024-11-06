@@ -17,7 +17,7 @@ class ClasificadorAudio:
         if self.audios_entrenamiento is None or self.labels_audio_entrenamiento is None:
             raise ValueError("El modelo K-NN no ha sido entrenado. Usa 'cargar_datos_entrenamiento' primero.")
 
-        # Calcular las distancias euclidianas manualmente con comprensión de listas
+        # Calcular las distancias euclidianas
         distancias = [
             sum((a - b) ** 2 for a, b in zip(audio_entrenamiento, caracteristicas_audio)) ** 0.5
             for audio_entrenamiento in self.audios_entrenamiento

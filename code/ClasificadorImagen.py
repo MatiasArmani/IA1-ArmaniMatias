@@ -24,7 +24,7 @@ class ClasificadorImagen:
         if self.centroides is None:
             raise ValueError("Los centroides no han sido cargados. Usa 'cargar_centroides' primero.")
         
-        # Calcular las distancias euclidianas manualmente
+        # Calcular las distancias euclidianas
         distancias = []
         for centroide in self.centroides:
             distancia = 0
