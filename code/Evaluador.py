@@ -101,38 +101,90 @@ class Evaluador:
         print("\n" + "=" * 120 + "\n")
 
     def evaluar_audio(self):
-        """Evalúa el rendimiento del clasificador de audio y calcula el porcentaje de aciertos."""
+        """Evalúa el rendimiento del clasificador de audio y calcula el porcentaje de aciertos general y por cada clase de verdura."""
         if self.clasificador_audio is None or not hasattr(self.clasificador_audio, 'predecir'):
             print("Error: El clasificador de audio no está entrenado o no tiene el método 'predecir'.")
-            return 0.0
+            return 0.0, {}
 
-        aciertos = 0
+        aciertos_por_etiqueta = {}
+        total_por_etiqueta = {}
+        aciertos_totales = 0
         total = len(self.caracteristicas_audio)
+        
+        # Inicializar contadores para cada etiqueta
+        etiquetas_unicas = np.unique(self.labels_audio)
+        for etiqueta in etiquetas_unicas:
+            aciertos_por_etiqueta[etiqueta] = 0
+            total_por_etiqueta[etiqueta] = 0
+        
+        # Contar aciertos y totales por etiqueta
         for i, caracteristicas in enumerate(self.caracteristicas_audio):
-            # Predicción real usando el clasificador
+            etiqueta_real = self.labels_audio[i]
             prediccion = self.clasificador_audio.predecir(caracteristicas)
-            if prediccion == self.labels_audio[i]:
-                aciertos += 1
-        porcentaje_aciertos = (aciertos / total) * 100 if total > 0 else 0.0
-        print(f"Porcentaje de aciertos en audios: {porcentaje_aciertos:.2f}%")
-        return porcentaje_aciertos
+            
+            total_por_etiqueta[etiqueta_real] += 1
+            if prediccion == etiqueta_real:
+                aciertos_por_etiqueta[etiqueta_real] += 1
+                aciertos_totales += 1
+        
+        # Calcular porcentaje de aciertos por etiqueta
+        porcentaje_aciertos_por_etiqueta = {
+            etiqueta: (aciertos_por_etiqueta[etiqueta] / total_por_etiqueta[etiqueta] * 100 if total_por_etiqueta[etiqueta] > 0 else 0.0)
+            for etiqueta in etiquetas_unicas
+        }
+        
+        # Calcular porcentaje de aciertos general
+        porcentaje_aciertos_general = (aciertos_totales / total) * 100 if total > 0 else 0.0
+        print(f"Porcentaje de aciertos general en audios: {porcentaje_aciertos_general:.2f}%")
+        
+        # Mostrar resultados por etiqueta
+        for etiqueta, porcentaje in porcentaje_aciertos_por_etiqueta.items():
+            print(f"Porcentaje de aciertos en audios para '{etiqueta}': {porcentaje:.2f}%")
+        
+        return porcentaje_aciertos_general, porcentaje_aciertos_por_etiqueta
 
     def evaluar_imagen(self):
-        """Evalúa el rendimiento del clasificador de imagen y calcula el porcentaje de aciertos."""
+        """Evalúa el rendimiento del clasificador de imagen y calcula el porcentaje de aciertos general y por cada clase de verdura."""
         if self.clasificador_imagen is None or not hasattr(self.clasificador_imagen, 'predecir'):
             print("Error: El clasificador de imagen no está entrenado o no tiene el método 'predecir'.")
-            return 0.0
+            return 0.0, {}
 
-        aciertos = 0
+        aciertos_por_etiqueta = {}
+        total_por_etiqueta = {}
+        aciertos_totales = 0
         total = len(self.caracteristicas_imagen)
+        
+        # Inicializar contadores para cada etiqueta
+        etiquetas_unicas = np.unique(self.labels_imagen)
+        for etiqueta in etiquetas_unicas:
+            aciertos_por_etiqueta[etiqueta] = 0
+            total_por_etiqueta[etiqueta] = 0
+        
+        # Contar aciertos y totales por etiqueta
         for i, caracteristicas in enumerate(self.caracteristicas_imagen):
-            # Predicción real usando el clasificador
+            etiqueta_real = self.labels_imagen[i]
             prediccion = self.clasificador_imagen.predecir(caracteristicas)
-            if prediccion == self.labels_imagen[i]:
-                aciertos += 1
-        porcentaje_aciertos = (aciertos / total) * 100 if total > 0 else 0.0
-        print(f"Porcentaje de aciertos en imágenes: {porcentaje_aciertos:.2f}%")
-        return porcentaje_aciertos
+            
+            total_por_etiqueta[etiqueta_real] += 1
+            if prediccion == etiqueta_real:
+                aciertos_por_etiqueta[etiqueta_real] += 1
+                aciertos_totales += 1
+        
+        # Calcular porcentaje de aciertos por etiqueta
+        porcentaje_aciertos_por_etiqueta = {
+            etiqueta: (aciertos_por_etiqueta[etiqueta] / total_por_etiqueta[etiqueta] * 100 if total_por_etiqueta[etiqueta] > 0 else 0.0)
+            for etiqueta in etiquetas_unicas
+        }
+        
+        # Calcular porcentaje de aciertos general
+        porcentaje_aciertos_general = (aciertos_totales / total) * 100 if total > 0 else 0.0
+        print(f"Porcentaje de aciertos general en imágenes: {porcentaje_aciertos_general:.2f}%")
+        
+        # Mostrar resultados por etiqueta
+        for etiqueta, porcentaje in porcentaje_aciertos_por_etiqueta.items():
+            print(f"Porcentaje de aciertos en imágenes para '{etiqueta}': {porcentaje:.2f}%")
+        
+        return porcentaje_aciertos_general, porcentaje_aciertos_por_etiqueta
 
     def ejecutar_evaluacion(self):
         print("Evaluando el rendimiento de los clasificadores...")
