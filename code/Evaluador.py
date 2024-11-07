@@ -141,7 +141,7 @@ class Evaluador:
         for etiqueta, porcentaje in porcentaje_aciertos_por_etiqueta.items():
             print(f"Porcentaje de aciertos en audios para '{etiqueta}': {porcentaje:.2f}%")
         
-        return porcentaje_aciertos_general, porcentaje_aciertos_por_etiqueta
+        return porcentaje_aciertos_general
 
     def evaluar_imagen(self):
         """Evalúa el rendimiento del clasificador de imagen y calcula el porcentaje de aciertos general y por cada clase de verdura."""
@@ -184,7 +184,7 @@ class Evaluador:
         for etiqueta, porcentaje in porcentaje_aciertos_por_etiqueta.items():
             print(f"Porcentaje de aciertos en imágenes para '{etiqueta}': {porcentaje:.2f}%")
         
-        return porcentaje_aciertos_general, porcentaje_aciertos_por_etiqueta
+        return porcentaje_aciertos_general
 
     def ejecutar_evaluacion(self):
         print("Evaluando el rendimiento de los clasificadores...")
