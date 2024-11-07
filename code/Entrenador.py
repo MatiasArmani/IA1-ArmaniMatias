@@ -69,26 +69,29 @@ class Entrenador:
         tol = 1e-4
 
         # Paso 1: Inicialización inspirada en K-means++
-        centroides = [self.imagenes_entrenamiento[np.random.randint(0, n_samples)]]
+        #Selecciona un punto aleatorio de imagenes_entrenamiento como el primer centroide.
+        #Para cada centroide adicional, calcula la distancia mínima de cada muestra a los centroides existentes
+        # y selecciona un nuevo centroide basado en una distribución de probabilidad proporcional a estas distancias.
+        centroides = [self.imagenes_entrenamiento[np.random.randint(0, n_samples)]]  # Selecciona un punto muestra aleatorio como primer centroide
         for _ in range(1, self.k_centroides):
             distancias = np.array([
-                min(np.sum((muestra - centroide) ** 2) for centroide in centroides)
+                min(np.sum((muestra - centroide) ** 2) for centroide in centroides) # Calcula la distancia euclidiana mínima de cada muestra a los centroides existentes
                 for muestra in self.imagenes_entrenamiento
-            ])
-            probabilidades = distancias / distancias.sum()
-            nuevo_centroide = self.imagenes_entrenamiento[np.random.choice(n_samples, p=probabilidades)]
+            ]) # distancias -> array de distancias mínimas de cada muestra a los centroides existentes
+            probabilidades = distancias / distancias.sum() # Normaliza las distancias para obtener probabilidades, donde cada probabildad es proporcional a la distancia mínima de una muestra a los centroides existentes
+            nuevo_centroide = self.imagenes_entrenamiento[np.random.choice(n_samples, p=probabilidades)] # Selecciona un nuevo centroide basado en una distribución de probabilidad proporcional a las distancias
             centroides.append(nuevo_centroide)
         
         centroides = np.array(centroides)
         
         for _ in range(max_iter):
-            # Paso 2: Asignar cada punto al centroide más cercano
+            # Paso 2: Asigna cada punto al centroide más cercano
             etiquetas = np.array([
                 np.argmin([np.sum((muestra - centroide) ** 2) for centroide in centroides])
                 for muestra in self.imagenes_entrenamiento
             ])
 
-            # Paso 3: Calcular nuevos centroides
+            # Paso 3: Calcula nuevos centroides como la media de las muestras asignadas a cada centroide!!!!!
             nuevos_centroides = np.array([
                 self.imagenes_entrenamiento[etiquetas == i].mean(axis=0) if np.any(etiquetas == i) else centroides[i]
                 for i in range(self.k_centroides)
